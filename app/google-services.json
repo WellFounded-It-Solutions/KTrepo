@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "646173347406",
+    "firebase_url": "https://kt-apps-android.firebaseio.com",
+    "project_id": "kt-apps-android",
+    "storage_bucket": "kt-apps-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646173347406:android:ee6d1bb36487c4e8effd1f",
+        "android_client_info": {
+          "package_name": "com.khaleejtimes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646173347406-thtvvdppbsu3hdfm4t78hp26i9hfej7u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khaleejtimes",
+            "certificate_hash": "8134499bd5434a4dfc9fee80a67fa408d7ad7b0a"
+          }
+        },
+        {
+          "client_id": "646173347406-2rdj0g4bo02mhkup8668lbukf1fg8n2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9nDPHmtCpYioWby14N9OiW-AUfrxRgto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646173347406-2rdj0g4bo02mhkup8668lbukf1fg8n2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

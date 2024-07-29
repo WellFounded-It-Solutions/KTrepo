@@ -1,0 +1,38 @@
+{"tabs": [
+  {
+    "module": "ContentList",
+    "id": "entertainment",
+    "parent": "entertainment_tab",
+    "title": "Entertainment"
+  },
+  {
+    "module": "ContentList",
+    "id": "movies",
+    "parent": "entertainment_tab",
+    "title": "Movies"
+  },
+  {
+    "module": "ContentList",
+    "id": "ott",
+    "parent": "entertainment_tab",
+    "title": "OTT"
+  },
+  {
+    "module": "ContentList",
+    "id": "music",
+    "parent": "entertainment_tab",
+    "title": "Music"
+  },
+  {
+    "module": "ContentList",
+    "id": "local_events",
+    "parent": "entertainment_tab",
+    "title": "Local Events"
+  },
+  {
+    "module": "ContentList",
+    "id": "newsmakers",
+    "parent": "entertainment_tab",
+    "title": "Newsmakers"
+  }
+]}

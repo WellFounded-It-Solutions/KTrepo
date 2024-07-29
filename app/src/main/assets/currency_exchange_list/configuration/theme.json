@@ -1,0 +1,21 @@
+{
+  "text": {
+    "headline": {
+      "size": "articleTextLarge",
+      "color": "text",
+      "linespacing": 1.25,
+      "font": "articleRegular"
+    },
+    "tableHeader": {
+      "size": "articleTextSmall",
+      "color": "tableHeader",
+      "linespacing": 1.5,
+      "alignment": "center",
+      "font": "articleRegular"
+    }
+  },
+  "font": {
+    "articleRegular": "articleAltRegular",
+    "articleBold": "articleAltBold"
+  }
+}

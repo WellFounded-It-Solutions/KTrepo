@@ -1,0 +1,44 @@
+{"tabs": [
+  {
+    "module": "ContentList",
+    "parent": "supplements_tab",
+    "id": "supplements",
+    "title": "Supplements"
+  },
+  {
+    "module": "ContentList",
+    "parent": "supplements_tab",
+    "id": "kt_engage",
+    "title": "KT Engage"
+  },
+  {
+    "module": "ContentList",
+    "parent": "supplements_tab",
+    "id": "kt_impact",
+    "title": "KT Impact"
+  },
+  {
+    "module": "ContentList",
+    "parent": "supplements_tab",
+    "id": "she",
+    "title": "She"
+  },
+  {
+    "module": "ContentList",
+    "parent": "supplements_tab",
+    "id": "metrolife",
+    "title": "Metrolife"
+  },
+  {
+    "module": "ContentList",
+    "parent": "supplements_tab",
+    "id": "kt_network",
+    "title": "KT Network"
+  },
+  {
+    "module": "ContentList",
+    "parent": "supplements_tab",
+    "id": "inspired_living",
+    "title": "Inspired Living"
+  }
+]}

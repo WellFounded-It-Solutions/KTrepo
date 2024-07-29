@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.khaleejtimes">
+
+    <!-- Some dependencies do not specify <uses-sdk> which leads to both android:minSdkVersion and android:targetSdkVersion
+         below 4, which in turn adds android.permission.READ_PHONE_STATE implicitly, since we don't want this and it
+         seems unintentional we are removing it. -->
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        tools:node="remove" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.navigaglobal.mobile.App"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/core_app_name"
+        tools:replace="android:label">
+
+        <meta-data android:name="google_analytics_automatic_screen_reporting_enabled" android:value="false" />
+
+        <meta-data android:name="applovin.sdk.verbose_logging" android:value="true" />
+
+<!--        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-7538703090817389~3161178947"/>-->
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-1211070150288899~8643750238"/>
+        <!-- Delay app measurement until MobileAds.initialize() is called. -->
+        <meta-data android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT" android:value="true"/>
+
+        <meta-data
+            android:name="SMT_APP_ID"
+            android:value="474baacc94ec25ed76f9b51e6440a909" />
+
+        <meta-data
+            android:name="HANSEL_APP_ID"
+            android:value="3P8WEJYW534C6DQ5Y2DMOWB2A" />
+
+        <meta-data
+            android:name="HANSEL_APP_KEY"
+            android:value="O6D0HZNQNTIMTV1XYA55LW501ILGFP9AEX3THMR1F5GDNIWKKH" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAopvKNeJY5Y58SFAgm2HK9ZsvyN2dl-gU" />
+
+        <activity
+            android:name="se.infomaker.iap.SpringBoardActivity"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:theme="@style/Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

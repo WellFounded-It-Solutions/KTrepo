@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp"
+    app:cardElevation="0dp">
+
+    <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+        android:id="@+id/teaserHeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginHorizontal="12dp"
+        app:textPrefix="• "
+        app:prefixThemeKey="relatedTeaserHeadline"
+        app:themeKey="relatedTeaserHeadline"
+        tools:text="Zlatan Ibrahimovic LA Galaxy: Zlatan joins LA Galaxy after Manchester United departure" />
+</se.infomaker.iap.theme.view.ThemeableCardView>

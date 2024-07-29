@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="teaser_image_margin">12dp</dimen>
+    <dimen name="teaser_bottom_padding">12dp</dimen>
+    <dimen name="bottom_padding">6dp</dimen>
+    <dimen name="vertical_padding">3dp</dimen>
+    <dimen name="subject_vertical_padding">6dp</dimen>
+    <dimen name="breaking_news_teaser_vertical_padding">6dp</dimen>
+    <dimen name="horizontal_padding">12dp</dimen>
+    <dimen name="horizontal_margin">12dp</dimen>
+</resources>

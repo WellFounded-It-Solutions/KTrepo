@@ -1,0 +1,92 @@
+{"tabs": [
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "lifestyle",
+    "title": "Lifestyle"
+  },
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "arts_&_culture",
+    "title": "Arts & Culture"
+  },
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "beauty",
+    "title": "Beauty"
+  },
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "books",
+    "title": "Books"
+  },
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "design",
+    "title": "Design"
+  },
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "fashion",
+    "title": "Fashion"
+  },
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "lifestyle_food",
+    "title": "Food"
+  },
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "health",
+    "title": "Health"
+  },
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "home",
+    "title": "Home"
+  },
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "mental_health",
+    "title": "Mental Health"
+  },
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "lifestyle_parenting",
+    "title": "Parenting"
+  },
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "relationships",
+    "title": "Relationships"
+  },
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "shopping",
+    "title": "Shopping"
+  },
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "stayhome",
+    "title": "StayHome"
+  },
+  {
+    "module": "ContentList",
+    "parent": "lifestyle_tab",
+    "id": "wellness",
+    "title": "Wellness"
+  }
+]}

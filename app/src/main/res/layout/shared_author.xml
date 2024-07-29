@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="8dp"
+    app:themeBackgroundColor="authorBackground">
+
+    <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+        android:id="@+id/firstTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        app:bindKeyPath="name"
+        app:layout_constraintBottom_toTopOf="@+id/secondTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_goneMarginBottom="0dp"
+        app:themeKey="authorName"
+        tools:text="Test Namn" />
+
+    <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+        android:id="@+id/secondTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:bindKeyPath="description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstTextView"
+        app:themeKey="authorDescription"
+        tools:text="test@mail.se" />
+</se.infomaker.iap.theme.view.ThemeableConstraintLayout>

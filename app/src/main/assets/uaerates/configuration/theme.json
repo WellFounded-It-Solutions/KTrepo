@@ -1,0 +1,27 @@
+{
+  "text": {
+    "headline": {
+      "size": "articleTextLarge",
+      "color": "text",
+      "linespacing": 1.25,
+      "font": "altSemiBold"
+    },
+    "tableHeader": {
+      "size": "articleTextSmall",
+      "color": "tableHeader",
+      "linespacing": 1.5,
+      "alignment": "center",
+      "font": "articleRegular"
+    },
+    "default": {
+      "size": 16,
+      "color": "text",
+      "linespacing": "articleDefaultLinespacing",
+      "font": "altSemiBold"
+    }
+  },
+  "font": {
+    "articleRegular": "articleAltRegular",
+    "articleBold": "articleAltBold"
+  }
+}

@@ -1,0 +1,74 @@
+{"tabs": [
+  {
+    "module": "ContentList",
+    "parent": "videos_tabs",
+    "id": "videos",
+    "title": "Videos"
+  },
+  {
+    "module": "ContentList",
+    "parent": "videos_tabs",
+    "id": "explainers",
+    "title": "Explainers"
+  },
+  {
+    "module": "ContentList",
+    "parent": "videos_tabs",
+    "id": "videos_food",
+    "title": "Food"
+  },
+  {
+    "module": "ContentList",
+    "parent": "videos_tabs",
+    "id": "videos_lifestyle",
+    "title": "Lifestyle"
+  },
+  {
+    "module": "ContentList",
+    "parent": "videos_tabs",
+    "id": "international",
+    "title": "International"
+  },
+  {
+    "module": "ContentList",
+    "parent": "videos_tabs",
+    "id": "videos_entertainment",
+    "title": "Entertainment"
+  },
+  {
+    "module": "ContentList",
+    "parent": "videos_tabs",
+    "id": "sport",
+    "title": "Sport"
+  },
+  {
+    "module": "ContentList",
+    "parent": "videos_tabs",
+    "id": "videos_business",
+    "title": "Business"
+  },
+  {
+    "module": "ContentList",
+    "parent": "videos_tabs",
+    "id": "events",
+    "title": "Events"
+  },
+  {
+    "module": "ContentList",
+    "parent": "videos_tabs",
+    "id": "videos_tech",
+    "title": "Tech"
+  },
+  {
+    "module": "ContentList",
+    "parent": "videos_tabs",
+    "id": "uae_people",
+    "title": "UAE People"
+  },
+  {
+    "module": "ContentList",
+    "parent": "videos_tabs",
+    "id": "uae_places",
+    "title": "UAE Places"
+  }
+]}

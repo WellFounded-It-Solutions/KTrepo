@@ -1,0 +1,543 @@
+{
+    "sections": [{
+            "views": [{
+                    "type": "action",
+                    "parameters": {
+                        "image": "currency_icon",
+                        "action": "openModule",
+                        "text": "Currency Exchange",
+                        "parameters": {
+                            "toolbar": "flat",
+                            "moduleName": "TabbedModule",
+                            "moduleId": "currency_exchange_tabs",
+                            "title": "Currency Exchange"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "image": "prayer_icon",
+                        "action": "openModule",
+                        "text": "Prayer Timings",
+                        "parameters": {
+                            "moduleName": "Article",
+                            "moduleId": "prayer",
+                            "title": "Prayer Timings"
+                        }
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "image": "stock_icon",
+                        "text": "Trading",
+                        "url": "https://www.khaleejtimes.com/trading"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "image": "kt_shows_icon",
+                        "text": "KT Shows",
+                        "url": "https://www.khaleejtimes.com/kt-shows"
+                    }
+                },
+
+                {
+                    "type": "link",
+                    "parameters": {
+                        "image": "cinema_listing_icon",
+                        "text": "Cinema Listings",
+                        "url": "https://www.khaleejtimes.com/uae-cinema-listing"
+                    }
+                }
+            ]
+        },
+        {
+            "views": [
+
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "UAE",
+                        "parameters": {
+                            "moduleName": "TabbedModule",
+                            "moduleId": "uae_tabs",
+                            "title": "UAE"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "World",
+                        "parameters": {
+                            "moduleName": "TabbedModule",
+                            "moduleId": "world_tabs",
+                            "title": "World"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Videos",
+                        "parameters": {
+                            "moduleName": "TabbedModule",
+                            "moduleId": "videos_tabs",
+                            "title": "Videos"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Podcasts",
+                        "parameters": {
+                            "moduleName": "ContentList",
+                            "moduleId": "podcasts",
+                            "title": "Podcasts"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Sports",
+                        "parameters": {
+                            "moduleName": "TabbedModule",
+                            "moduleId": "sports_tabs",
+                            "title": "Sports"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Metaverse",
+                        "parameters": {
+                            "moduleName": "TabbedModule",
+                            "moduleId": "metaverse_tabs",
+                            "title": "Metaverse"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "UAE Holidays",
+                        "parameters": {
+                            "moduleName": "ContentList",
+                            "moduleId": "uae_holidays",
+                            "title": "UAE Holidays"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Expo City Dubai",
+                        "parameters": {
+                            "moduleName": "ContentList",
+                            "moduleId": "expo_city_dubai",
+                            "title": "Expo City Dubai"
+                        }
+                    }
+                },
+
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Coronavirus",
+                        "parameters": {
+                            "moduleName": "ContentList",
+                            "moduleId": "coronavirus",
+                            "title": "Coronavirus"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Life and Living",
+                        "parameters": {
+                            "moduleName": "TabbedModule",
+                            "moduleId": "life_and_living_tabs",
+                            "title": "Life and Living"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Opinion",
+                        "parameters": {
+                            "moduleName": "TabbedModule",
+                            "moduleId": "opinion_tabs",
+                            "title": "Opinion"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Business",
+                        "parameters": {
+                            "moduleName": "TabbedModule",
+                            "moduleId": "business_tabs",
+                            "title": "Business"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Photos",
+                        "parameters": {
+                            "moduleName": "ContentList",
+                            "moduleId": "photos",
+                            "title": "Photos"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Offbeat",
+                        "parameters": {
+                            "moduleName": "ContentList",
+                            "moduleId": "offbeat",
+                            "title": "Offbeat"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Entertainment",
+                        "parameters": {
+                            "moduleName": "TabbedModule",
+                            "moduleId": "entertainment_tabs",
+                            "title": "Entertainment"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Food",
+                        "parameters": {
+                            "moduleName": "TabbedModule",
+                            "moduleId": "food_tabs",
+                            "title": "Food"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Lifestyle",
+                        "parameters": {
+                            "moduleName": "TabbedModule",
+                            "moduleId": "lifestyle_tabs",
+                            "title": "Lifestyle"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Personal Finance",
+                        "parameters": {
+                            "moduleName": "ContentList",
+                            "moduleId": "personal_finance",
+                            "title": "Personal Finance"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Jobs",
+                        "parameters": {
+                            "moduleName": "ContentList",
+                            "moduleId": "jobs",
+                            "title": "Jobs"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Tech",
+                        "parameters": {
+                            "moduleName": "ContentList",
+                            "moduleId": "tech",
+                            "title": "Tech"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Travel",
+                        "parameters": {
+                            "moduleName": "TabbedModule",
+                            "moduleId": "travel_tabs",
+                            "title": "Travel"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Motoring",
+                        "parameters": {
+                            "moduleName": "ContentList",
+                            "moduleId": "motoring",
+                            "title": "Motoring"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Community",
+                        "parameters": {
+                            "moduleName": "ContentList",
+                            "moduleId": "community",
+                            "title": "Community"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Long Reads",
+                        "parameters": {
+                            "moduleName": "ContentList",
+                            "moduleId": "long_reads",
+                            "title": "Long Reads"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Reviews",
+                        "parameters": {
+                            "moduleName": "TabbedModule",
+                            "moduleId": "reviews_tabs",
+                            "title": "Reviews"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "Supplements",
+                        "parameters": {
+                            "moduleName": "TabbedModule",
+                            "moduleId": "supplements_tabs",
+                            "title": "Supplements"
+                        }
+                    }
+                },
+                {
+                    "type": "action",
+                    "parameters": {
+                        "action": "openModule",
+                        "text": "KT Network",
+                        "parameters": {
+                            "moduleName": "ContentList",
+                            "moduleId": "ktnetwork",
+                            "title": "KT Network"
+                        }
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "Newsletter",
+                        "url": "https://www.khaleejtimes.com/newsletter"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "ePaper",
+                        "url": "https://epaper.khaleejtimes.com"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "eBTR",
+                        "url": "https://ebtr.khaleejtimes.com"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "eMetrolife",
+                        "url": "https://emetrolife.khaleejtimes.com"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "Inspired Living",
+                        "url": "http://e.ktinspiredliving.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "eSupplements",
+                        "url": "http://anax1ep.pressmart.com/KhaleejTimessupplements"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "eWKND",
+                        "url": "http://ewknd.khaleejtimes.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "eYoungTimes",
+                        "url": "http://ereplica.pressmart.com/youngtimes/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "Buzzon",
+                        "url": "https://buzzon.khaleejtimes.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "KT Gamez",
+                        "url": "https://ktgamez.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "Digipay",
+                        "url": "https://digipaysummit.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "Future of Smart Cities",
+                        "url": "https://fosc.khaleejtimesevents.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "Artelligence",
+                        "url": "https://artelligenceforum.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "UniExpo",
+                        "url": "https://www.ktuniexpo.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "Digibank",
+                        "url": "https://ktdigibank.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "Future of Insurance",
+                        "url": "https://futureofinsurancecongress.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "Remote Workforce",
+                        "url": "https://remoteworkforcesummit.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "New Age Finance",
+                        "url": "https://newagefinanceexpo.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "Digital Health",
+                        "url": "https://dhf.khaleejtimesevents.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "Global Investment",
+                        "url": "https://www.gif.khaleejtimesevents.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {
+                        "text": "Desert Drive",
+                        "url": "https://www.ktdesertdrive.com/"
+                    }
+                },
+                {
+                    "type": "link",
+                    "parameters": {}
+                },
+                {
+                    "type": "link",
+                    "parameters": {}
+                }
+            ]
+        }
+    ]
+}

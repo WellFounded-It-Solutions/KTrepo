@@ -1,0 +1,49 @@
+buildscript {
+    ext.kotlin_version = "1.7.10"
+    repositories {
+        mavenLocal()
+        google()
+        maven { url "https://developer.huawei.com/repo/" }
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+
+        maven { url 'https://artifacts.applovin.com/android' }
+
+
+        jcenter()
+    }
+    dependencies {
+//        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.0"
+
+        classpath 'com.android.tools.build:gradle:7.2.2'
+        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.43.2'
+        classpath "com.google.gms:google-services:4.3.13"
+        classpath "com.github.jk1:gradle-license-report:1.11"
+        classpath "com.github.spullara.mustache.java:compiler:0.9.6"
+        classpath "com.google.firebase:firebase-appdistribution-gradle:2.2.0"
+        classpath "com.google.firebase:firebase-crashlytics-gradle:2.9.1"
+        classpath "com.applovin.quality:AppLovinQualityServiceGradlePlugin:+"
+    }
+
+    configurations.all {
+        resolutionStrategy.cacheDynamicVersionsFor 0, "minutes"
+        resolutionStrategy.cacheChangingModulesFor 0, "seconds"
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        google()
+        maven { url "https://developer.huawei.com/repo/" }
+        mavenCentral()
+        jcenter()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://artifacts.applovin.com/android' }
+        maven { url "https://europe-maven.pkg.dev/jxbrowser/releases/" }
+        maven { url "https://instreamatic.com/nexus/repository/maven-public" }
+        maven { url "https://verve.jfrog.io/artifactory/verve-gradle-release" }
+
+    }
+}

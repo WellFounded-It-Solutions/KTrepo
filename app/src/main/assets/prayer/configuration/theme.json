@@ -1,0 +1,86 @@
+{
+  "image": {
+    "moon": "prayer_moon",
+    "sun_full": "prayer_sun",
+    "sun_half": "prayer_sun_half",
+    "sun_quarter": "prayer_sun_quarter"
+  },
+  "color": {
+    "prayerTimeIcon": "text2",
+    "prayerTimeBackgroundSelected": "brandColor",
+    "prayerTimeClockSelected": "onBrandColor",
+    "prayerTimeUntilPrayer": "text",
+    "prayerTimeBackground": "brandColor10Percent",
+    "prayerTimeIconSelected": "onBrandColor",
+    "prayerTimeUntilPrayerSelected": "onBrandColor",
+    "prayerPickerLocationBorder": "articleBackground4",
+    "prayerTimeClock": "brandColor",
+    "prayerTimeName": "text",
+    "prayerPickerLocationIcon": "text",
+    "prayerTimeNameSelected": "onBrandColor"
+  },
+  "text": {
+    "prayerTimeAmPm": {
+      "size": "medium",
+      "color": "prayerTimeClock",
+      "font": "altSemiBold"
+    },
+    "prayerTimeClockSelected": {
+      "size": "xx-large",
+      "color": "prayerTimeClockSelected",
+      "alignment": "right",
+      "font": "altSemiBold"
+    },
+    "prayerTimeAmPmSelected": {
+      "size": "medium",
+      "color": "prayerTimeClockSelected",
+      "font": "altSemiBold"
+    },
+    "prayerCurrentDateIslamic": {
+      "size": "medium",
+      "color": "text",
+      "font": "altRegular"
+    },
+    "prayerTimeUntilPrayer": {
+      "size": "small",
+      "color": "prayerTimeUntilPrayer",
+      "font": "altRegular"
+    },
+    "prayerPickerLocation": {
+      "size": 22,
+      "color": "text",
+      "font": "altSemiBold"
+    },
+    "prayerTimeUntilPrayerSelected": {
+      "size": "small",
+      "color": "prayerTimeUntilPrayerSelected",
+      "font": "altRegular"
+    },
+    "prayerTimeClock": {
+      "size": "xx-large",
+      "color": "prayerTimeClock",
+      "alignment": "right",
+      "font": "altSemiBold"
+    },
+    "prayerCurrentDateGregorian": {
+      "size": 18,
+      "color": "text2",
+      "font": "altSemiBold"
+    },
+    "prayerPickerLocationChoose": {
+      "size": 15,
+      "color": "text",
+      "font": "altSemiBold"
+    },
+    "prayerTimeName": {
+      "size": 22,
+      "color": "prayerTimeName",
+      "font": "altSemiBold"
+    },
+    "prayerTimeNameSelected": {
+      "size": "xx-large",
+      "color": "prayerTimeNameSelected",
+      "font": "altSemiBold"
+    }
+  }
+}

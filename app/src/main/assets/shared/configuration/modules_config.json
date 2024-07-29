@@ -1,0 +1,93 @@
+{
+    "modules": [{
+            "topAppBar": {
+                "visibility": "flat",
+                "logo": {
+                    "icon": "toolbar_logo",
+                    "position": "center"
+                },
+                "statusBarStyle": "black",
+                "title": { "position": "none" },
+                "items": [{
+                        "icon": "search_toolbar_icon",
+                        "position": "right",
+                        "click": {
+                            "action": "display-module",
+                            "parameters": {
+                                "moduleName": "Search",
+                                "moduleId": "search",
+                                "title": "Search"
+                            }
+                        }
+                    },
+                    {
+                        "icon": "account_toolbar_icon",
+                        "position": "right",
+                        "click": {
+                            "action": "display-module",
+                            "parameters": {
+                                "moduleName": "MyProfile",
+                                "moduleId": "account",
+                                "title": "About"
+                            }
+                        }
+                    }
+                ]
+            },
+            "defaultSelected": true,
+            "moduleName": "TabbedModule",
+            "id": "today",
+            "title": "Home"
+        },
+        {
+            "toolbarConfig": {
+                "visibility": "flat",
+                "logoPosition": "none"
+            },
+            "moduleName": "NearMe",
+            "id": "mykt",
+            "title": "My KT"
+        },
+        {
+            "moduleName": "Article",
+            "id": "gold_rate",
+            "title": "Gold Rate"
+        },
+        {
+            "toolbarConfig": { "logoPosition": "none" },
+            "moduleName": "Article",
+            "id": "prayer",
+            "title": "Prayer Timings"
+        },
+        {
+            "topAppBar": {
+                "statusBarStyle": "black",
+                "items": [{
+                    "icon": "search_toolbar_icon",
+                    "position": "right",
+                    "click": {
+                        "action": "display-module",
+                        "parameters": {
+                            "moduleName": "Search",
+                            "moduleId": "search",
+                            "title": "Search"
+                        }
+                    }
+                }]
+            },
+            "moduleName": "MyProfile",
+            "id": "topics",
+            "title": "Explore"
+        },
+        {
+            "moduleName": "Settings",
+            "menuLocation": "none",
+            "id": "settings"
+        },
+        {
+            "moduleName": "Bookmarks",
+            "menuLocation": "none",
+            "id": "bookmarks"
+        }
+    ]
+}

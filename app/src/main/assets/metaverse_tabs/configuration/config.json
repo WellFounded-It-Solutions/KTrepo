@@ -1,0 +1,32 @@
+{"tabs": [
+  {
+    "module": "ContentList",
+    "parent": "metaverse_tab",
+    "id": "metaverse",
+    "title": "Metaverse"
+  },
+  {
+    "module": "ContentList",
+    "parent": "metaverse_tab",
+    "id": "blockchain",
+    "title": "Blockchain"
+  },
+  {
+    "module": "ContentList",
+    "parent": "metaverse_tab",
+    "id": "cryptocurrency",
+    "title": "Cryptocurrency"
+  },
+  {
+    "module": "ContentList",
+    "parent": "metaverse_tab",
+    "id": "nfts",
+    "title": "NFTs"
+  },
+  {
+    "module": "ContentList",
+    "parent": "metaverse_tab",
+    "id": "web3",
+    "title": "Web 3.0"
+  }
+]}

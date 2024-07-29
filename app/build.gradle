@@ -1,0 +1,162 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'applovin-quality-service'
+apply plugin: 'dagger.hilt.android.plugin'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.appdistribution'
+apply from: '../gradle/licenses/license-report-generator.gradle'
+
+applovin {
+    apiKey "CATKx497wlO3DsbMGWxBITQg_OqT7XXdI_Zw_NLFriX9yVSAWdEK9wbnpqK0c3rI5ezOZzGVw7J7RTJtdAzwUZ"
+}
+
+android {
+    compileSdkVersion 34
+
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.khaleejtimes"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 2165
+        versionName "3.0.27"
+        multiDexEnabled true
+
+        vectorDrawables.useSupportLibrary = true
+
+        // This will strip all non-supported ABI sets from the final APK file.
+        ndk.abiFilters = ["armeabi-v7a", "arm64-v8a", "x86", "x86_64"]
+    }
+
+    signingConfigs {
+        release {
+            keyAlias "khaleej"
+            keyPassword "khaleejtimes"
+            storeFile file("KhaleejTimes.keystore")
+            storePassword "khaleejtimes"
+        }
+        appDistributionRelease {
+            keyAlias "khaleej"
+            keyPassword "khaleejtimes"
+            storeFile file("KhaleejTimes.keystore")
+            storePassword "khaleejtimes"
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/proguard/androidx-annotations.pro'
+        exclude 'META-INF/library_release.kotlin_module'
+        exclude 'META-INF/google_release.kotlin_module'
+        exclude 'META-INF/huawei_release.kotlin_module'
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+
+            ext.enableCrashlytics = true
+        }
+        appDistributionRelease {
+            debuggable false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.appDistributionRelease
+
+            ext.enableCrashlytics = true
+
+            firebaseAppDistribution {
+                serviceCredentialsFile = "/Users/vivekpratapsingh-macbook/AndroidStudioWorkspace/iap-app-khaleej/build/outputs/ktProd/project/google/service-account.json"
+                testersFile = "/Users/vivekpratapsingh-macbook/AndroidStudioWorkspace/iap-app-khaleej/build/outputs/ktProd/project/google/app/testers.txt"
+            }
+        }
+        debug {
+            debuggable true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.appDistributionRelease
+
+            ext.enableCrashlytics = true
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+repositories {
+    maven { url 'https://artifacts.netcore.co.in/artifactory/android' }
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+
+    def iapVersion = "0.0.1-SNAPSHOT"
+
+    implementation(platform("com.navigaglobal.mobile:bom:$iapVersion"))
+    implementation("com.navigaglobal.mobile:core:$iapVersion")
+    implementation("com.navigaglobal.mobile:live-content:$iapVersion")
+    implementation("com.navigaglobal.mobile:ktshows:$iapVersion")
+    implementation("com.navigaglobal.mobile:profile:$iapVersion")
+    implementation("com.navigaglobal.mobile:app-extension-khaleej-times:$iapVersion")
+    implementation("com.navigaglobal.mobile:push-google:$iapVersion")
+    implementation("com.navigaglobal.mobile:map-google:$iapVersion")
+    implementation("com.navigaglobal.mobile:ad-google-mobile-ads:$iapVersion")
+    implementation("com.navigaglobal.mobile:statistics-firebase-analytics:$iapVersion")
+
+    //Netcore
+    implementation "com.netcore.android:smartech-sdk:3.5.4"
+    implementation "com.netcore.android:smartech-nudges:10.2.0"
+
+    //Chartbeat
+    implementation 'com.github.chartbeat:android_sdk:v1.6.7'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    implementation "com.google.dagger:hilt-android:2.43.2"
+    kapt "com.google.dagger:hilt-compiler:2.43.2"
+
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    kapt 'com.github.bumptech.glide:compiler:4.13.2'
+
+    // firebase
+    implementation "com.google.firebase:firebase-bom:30.3.1"
+    implementation "com.google.code.gson:gson:2.9.1"
+
+    implementation "androidx.core:core-splashscreen:1.0.0-beta02"
+
+    // FreeStar
+
+    implementation 'com.applovin:applovin-sdk:+'
+    implementation 'com.applovin.mediation:google-ad-manager-adapter:+'
+
+    implementation 'com.applovin.mediation:google-adapter:+'
+
+    implementation 'com.applovin.mediation:inmobi-adapter:+'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    implementation 'com.applovin.mediation:verve-adapter:+'
+
+    // Using LeakCanary for debug builds by default, to opt-out for while running development builds: remove this dependency.
+    //   debugImplementation "com.squareup.leakcanary:leakcanary-android:2.9.1"
+
+}

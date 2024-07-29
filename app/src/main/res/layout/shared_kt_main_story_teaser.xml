@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="0dp">
+
+    <se.infomaker.iap.theme.view.ThemeableConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:themeBackgroundColor="teaserBackground">
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMImageView
+            android:id="@+id/teaserImage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            app:bindKeyPath="teaserImageUuid"
+            app:cropKeyPath="teaserImageCrop"
+            app:heightKeyPath="teaserImageHeight"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="V,2:1.5"
+            app:type="hardCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:widthKeyPath="teaserImageWidth"
+            tools:background="#ccc" />
+
+        <ImageView
+            android:id="@+id/gradient"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/shared_kt_article_cover_gradient" />
+
+        <FrameLayout
+            android:id="@+id/teaserSubjectContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@id/teaserHeadline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.98"
+            app:layout_constraintVertical_chainStyle="packed">
+
+            <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+                android:id="@+id/teaserSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:textColor="@color/primary_dark"
+                android:paddingTop="6dp"
+                android:textSize="12dp"
+                android:paddingRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:paddingBottom="6dp"
+                tools:background="@drawable/rounded_corner"
+                android:textStyle="bold"
+                tools:text="COLUMNIST" />
+        </FrameLayout>
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/teaserHeadline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/horizontal_padding"
+            android:paddingBottom="@dimen/bottom_padding"
+            app:layout_constraintBottom_toTopOf="@id/datelineHolder"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/teaserSubjectContainer"
+            app:themeBackgroundColor="mainStoryTeaserHeadlineBackground"
+            app:themeKey="mainStoryTeaserHeadline"
+            tools:text="”What is #metoo all about? And how do we continue?”" />
+
+        <!--        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView-->
+        <!--            android:id="@+id/teaserLeadin"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="0.1dp"-->
+        <!--            android:ellipsize="end"-->
+        <!--            android:paddingHorizontal="@dimen/horizontal_padding"-->
+        <!--            android:paddingBottom="@dimen/bottom_padding"-->
+        <!--            app:layout_constraintBottom_toTopOf="@id/datelineHolder"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@id/teaserHeadline"-->
+        <!--            app:themeKey="mainStoryTeaserLeadin"-->
+        <!--            tools:text="Mathilda Sigurdarsdottir" />-->
+
+        <se.infomaker.iap.theme.view.ThemeableConstraintLayout
+            android:id="@+id/datelineHolder"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/horizontal_padding"
+            android:paddingVertical="@dimen/vertical_padding"
+            app:layout_constraintBottom_toBottomOf="@id/teaserImage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/teaserLeadin">
+
+            <!--            <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView-->
+            <!--                android:id="@+id/teaserSection"-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:paddingEnd="6dp"-->
+            <!--                app:bindKeyPath="teaserSubject"-->
+            <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--                app:layout_constraintTop_toTopOf="parent"-->
+            <!--                app:themeBackgroundColor="teaserPubDateBackground"-->
+            <!--                app:themeKey="mainStoryTeaserSection"-->
+            <!--                tools:text="COLUMNIST" />-->
+
+            <!--            <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView-->
+            <!--                android:id="@+id/publicationDate"-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="0dp"-->
+            <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                app:layout_constraintLeft_toRightOf="@id/teaserSection"-->
+            <!--                app:layout_constraintTop_toTopOf="parent"-->
+            <!--                app:textFormat="isoDate"-->
+            <!--                app:outFormat="E d MMM yyyy"-->
+            <!--                app:themeBackgroundColor="teaserPubDateBackground"-->
+            <!--                app:themeKey="mainStoryTeaserPubDate"-->
+            <!--                tools:text="2h ago" />-->
+
+        </se.infomaker.iap.theme.view.ThemeableConstraintLayout>
+    </se.infomaker.iap.theme.view.ThemeableConstraintLayout>
+</se.infomaker.iap.theme.view.ThemeableCardView>

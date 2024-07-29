@@ -1,0 +1,38 @@
+{"tabs": [
+  {
+    "module": "ContentList",
+    "id": "life_and_living",
+    "parent": "life_and_living_tab",
+    "title": "Life and Living"
+  },
+  {
+    "module": "ContentList",
+    "id": "visa",
+    "parent": "life_and_living_tab",
+    "title": "Visa & Immigration in UAE"
+  },
+  {
+    "module": "ContentList",
+    "id": "banking_in_uae",
+    "parent": "life_and_living_tab",
+    "title": "Banking in UAE"
+  },
+  {
+    "module": "ContentList",
+    "id": "schooling_in_uae",
+    "parent": "life_and_living_tab",
+    "title": "Schooling in UAE"
+  },
+  {
+    "module": "ContentList",
+    "id": "public_transport_in_uae",
+    "parent": "life_and_living_tab",
+    "title": "Public Transport in UAE"
+  },
+  {
+    "module": "ContentList",
+    "id": "housing_in_uae",
+    "parent": "life_and_living_tab",
+    "title": "Housing in UAE"
+  }
+]}

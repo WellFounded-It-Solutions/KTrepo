@@ -1,0 +1,82 @@
+{
+    "tabs": [{
+            "module": "SectionContentList",
+            "id": "topstories",
+            "parent": "home_tab",
+            "title": "Top stories"
+        },
+        {
+            "module": "ContentList",
+            "id": "uae",
+            "parent": "home_tab",
+            "title": "UAE"
+        },
+        {
+            "module": "ContentList",
+            "id": "world",
+            "parent": "home_tab",
+            "title": "World"
+        },
+        {
+            "module": "ContentList",
+            "id": "business",
+            "parent": "home_tab",
+            "title": "Business"
+        },
+        {
+            "module": "Article",
+            "id": "prayer",
+            "parent": "home_tab",
+            "title": "Prayer Timings"
+        },
+        {
+            "module": "ContentList",
+            "id": "entertainment",
+            "parent": "home_tab",
+            "title": "Entertainment"
+        },
+        {
+            "module": "ContentList",
+            "id": "lifestyle",
+            "parent": "home_tab",
+            "title": "Lifestyle"
+        },
+        {
+            "module": "ContentList",
+            "id": "sports",
+            "parent": "home_tab",
+            "title": "Sports"
+        },
+        {
+            "module": "ContentList",
+            "id": "opinion",
+            "parent": "home_tab",
+            "title": "Opinion"
+        },
+        {
+            "module": "KtShows",
+            "id": "ktshows",
+            "parent": "home_tab",
+            "title": "KT Shows"
+        },
+        {
+            "module": "ContentList",
+            "id": "videos",
+            "parent": "home_tab",
+            "title": "Videos"
+        },
+        {
+            "module": "ContentList",
+            "id": "supplements",
+            "parent": "home_tab",
+            "title": "Supplements"
+        },
+        {
+            "module": "WebContent",
+            "id": "webshow",
+            "parent": "home_tab",
+            "title": "KT Events"
+        }
+
+    ]
+}

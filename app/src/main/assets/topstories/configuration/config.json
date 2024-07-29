@@ -1,0 +1,96 @@
+{
+  "ads": {"sticky": {"providerConfiguration": {
+    "adId": "/78059622/Homepage-App-320x50-sticky",
+    "width": 320,
+    "height": 50
+  }}},
+  "contentPresentation": {"teasers": [
+    {
+      "layout": "kt_ad_teaser",
+      "match": {"content.customerContentSubType": ["SPONSOREDCONTENT"]},
+      "bindingOverrides": [{
+        "view": "teaserLeadin",
+        "keyPath": ""
+      }]
+    },
+    {
+      "layout": "standard_right_now_teaser",
+      "match": {"context.section": ["breaking"]},
+      "bindingOverrides": [{
+        "view": "teaserLeadin",
+        "keyPath": ""
+      }]
+    },
+    {
+      "layout": "shared_kt_section_teaser",
+      "match": {
+        "context.section": ["mainStory"],
+        "context.position.first": [true]
+      }
+    },
+    {
+      "layout": "kt_editors_pics_teaser",
+      "match": {"content.sectionUuids": ["7171332C-73B3-4445-94A1-C35D955EB233"]}
+    },
+    {"layout": "kt_default_teaser"}
+  ]},
+  "sections": [
+    {
+      "configuration": {
+        "propertyMapReference": "List",
+        "queryParams": {
+          "q": "uuid:07968e72-51c8-4104-85be-c4131d7d4ad2",
+          "filters": "Articles(q=Status:usable|limit=50)",
+          "contenttype": "List"
+        }
+      },
+      "context": {"section": "breaking"},
+      "type": "list"
+    },
+    {
+      "configuration": {
+        "propertyMapReference": "ListWithRelatedArticles",
+        "queryParams": {
+          "q": "uuid:f72411ed-9409-4ac7-aa94-dc8f35d991c8",
+          "filters": "Articles(q=Status:usable|limit=1)[Articles(q=Status:usable|limit=0)]",
+          "contenttype": "List"
+        }
+      },
+      "context": {"section": "mainStory"},
+      "type": "list"
+    },
+    {
+      "ads": {
+        "distanceMax": 6,
+        "distanceMin": 4,
+        "provider": "GoogleMobileAds",
+        "providerConfiguration": [
+          {
+            "adId": "/78059622/Homepage-App-300x250-1",
+            "width": 300,
+            "height": 250
+          },
+          {
+            "adId": "/78059622/Homepage-App-300x250-2",
+            "width": 300,
+            "height": 250
+          },
+          {
+            "adId": "/78059622/Homepage-App-300x250-3",
+            "width": 300,
+            "height": 250
+          }
+        ]
+      },
+      "configuration": {
+        "propertyMapReference": "List",
+        "queryParams": {
+          "q": "uuid:f72411ed-9409-4ac7-aa94-dc8f35d991c8",
+          "filters": "Articles(q=Status:usable|start=1|limit=50)",
+          "contenttype": "List"
+        }
+      },
+      "type": "list"
+    }
+  ]
+}

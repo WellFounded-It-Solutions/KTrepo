@@ -1,0 +1,853 @@
+{
+  "image": {
+    "numberedTeaserNumberBackground": "circle_drawable",
+    "provisioningLogo": "paywall_logo",
+    "teaserPremiumIcon": "premium_icon"
+  },
+  "color": {
+    "buyButtonBackground": "nonProminentButtonBackground",
+    "provisioningActionButtonBackground": "prominentButtonBackground",
+    "smallTeaserHeadlinePrefix": "brandColor",
+    "linkItem": "text",
+    "listSeparator": "#00000000",
+    "quickTeaserHeadlinePrefix": "brandColor",
+    "tabBackground": "brandColor",
+    "adListBackground": "appBackground",
+    "tabText": "onBrandColor",
+    "mainStoryTeaserSectionBackground": "brandColor",
+    "tableEvenRowBackground": "brandColor10Percent",
+    "mainStoryTeaserSubject": "white",
+    "editorsPicsTeaserHeadline": "white",
+    "editorsPicsTeaserSubject": "white",
+    "imageGalleryCountTextBackground": "semiBlack",
+    "licensesTrailingIcon": "profileTrailingIcon",
+    "bookmarkFallbackImageColor": "systemBackground3",
+    "editorsPicsTeaserPubDate": "offWhite",
+    "teaserColoredBackground": "brandColorAlpha",
+    "breakingNewsTeaserSubject": "red",
+    "indicatorUnselected": "offWhite",
+    "teaserByline": "brandColor",
+    "text": "#121212",
+    "tableHeaderBackground": "brandColor",
+    "topicBackground": "systemBackground",
+    "indicatorSelected": "white",
+    "followActive": "text2",
+    "contentPartBorderBottomColor": "articleBackground4",
+    "tableContainerBackground": "articleBackground2",
+    "tabbarColor": "chromeColor",
+    "onBrandColor": "#ffffff",
+    "brandColor10Percent": "#201F8BDF",
+    "mainStoryTeaserSection": "white",
+    "mainStoryTeaserLeadin": "white",
+    "mailProfileBrandColor": "text",
+    "nonProminentButtonBackground": "systemBackground4",
+    "nearmeEmptyIconBackground": "systemBackground4",
+    "articleBackground": "systemBackground",
+    "text3": "#4D3C3C43",
+    "mainStoryTeaserHeadline": "white",
+    "text4": "#2E3C3C43",
+    "breakingNewsTeaserPubDate": "textAlt2",
+    "text2": "#993C3C43",
+    "authorSeparator": "separator",
+    "bottomNavigationItemDeselected": "#99000000",
+    "bylineTeaserPubDate": "teaserText2",
+    "brandColor": "#1F8BDF",
+    "topicHeadlineBackground": "topicBackground",
+    "bylineTeaserSubjectBackground": "bylineTeaserBackground",
+    "sectionTeaserPubDate": "teaserText2",
+    "listBackground": "appBackground",
+    "profileNormalTextColor": "text2",
+    "sectionTeaserLeadin": "teaserText",
+    "teaserText": "text",
+    "bookmarkTeaserSubject": "brandColor",
+    "smallTeaserHeadline": "teaserText",
+    "teaserHeadline": "teaserText",
+    "bookmarkSelectIndicatorBackground": "#cc1F8BDF",
+    "relatedTeaserPremiumIcon": "teaserPremiumIcon",
+    "topicMoreArrow": "topicMoreColor",
+    "teaserPremiumIcon": "brandColor",
+    "toolbarShadow": "separator",
+    "followBackground": "articleBackground",
+    "adContentHeaderBackground": "brandColor",
+    "black": "#000000",
+    "fallbackBackground": "articleBackground2",
+    "quickTeaserPubDate": "text2",
+    "appUpdateUpdateButtonBackground": "prominentButtonBackground",
+    "toolbar": "chromeColor",
+    "touchfeedback": "brandColorAlpha20Percent",
+    "smallTeaserPubDate": "teaserText2",
+    "breakingNewsTeaserHeadlineBackground": "brandColor",
+    "nearmeEmptyButtonBackground": "prominentButtonBackground",
+    "teaserBackground": "defaultTeaserBackground",
+    "purchaseSubscriptionDivider": "separator",
+    "teaserSection": "onBrandColor",
+    "profileTrailingIcon": "text",
+    "topicSeparator": "separator",
+    "quickTeaserSubject": "brandColor",
+    "prominentButtonBackground": "brandColor",
+    "contentPartBackground": "articleBackground2",
+    "teaserAdBackground": "brandColor",
+    "tableHeaderBorder": "tableBorder",
+    "relatedTeaserHeadlinePrefix": "brandColor",
+    "defaultTeaserBackground": "systemBackground",
+    "bylineTeaserPremiumIcon": "teaserPremiumIcon",
+    "bylineTeaserBackground": "teaserColoredBackground",
+    "red": "#FF0000",
+    "sectionTeaserHeadline": "teaserText",
+    "relatedTeaserBackground": "teaserBackground",
+    "activeUnselected": "text",
+    "toolbarColor": "chromeColor",
+    "appUpdateBackground": "appBackground",
+    "white": "#ffffff",
+    "systemBackground2": "#F2F2F7",
+    "systemBackground4": "#D1D1D6",
+    "authorBackground": "articleBackground",
+    "quickTeaserHeadline": "teaserText",
+    "systemBackground3": "#E5E5EA",
+    "systemBackground6": "#AEAEB2",
+    "teaserAdSender": "teaserText2",
+    "systemBackground5": "#C7C7CC",
+    "editorsPicsTeaserLeadin": "white",
+    "onChromeColor": "text",
+    "offWhite": "#99EBEBF5",
+    "appUpdateLaterButtonBackground": "nonProminentButtonBackground",
+    "systemBackground": "#FFFFFF",
+    "hyperlink": "#007AFF",
+    "sectionTeaserSubject": "teaserText",
+    "bylineTeaserHeadline": "teaserHeadline",
+    "nearmeEmptyBackground": "appBackground",
+    "teaserPubDate": "teaserText2",
+    "profileSectionBackground": "systemBackground",
+    "rightNowTeaserLeadin": "teaserText",
+    "smallTeaserPremiumIcon": "teaserPremiumIcon",
+    "topicMoreColor": "text",
+    "followInactive": "brandColor",
+    "semiBlack": "#80000000",
+    "separator": "#C6C6C8",
+    "adTeaserBackground": "teaserBackground",
+    "chromeColor": "#FFFFFF",
+    "purchaseSubscriptionLoginButton": "prominentButtonBackground",
+    "background": "articleBackground",
+    "brandColorAlpha": "#0C1F8BDF",
+    "toolbarAction": "onChromeColor",
+    "breakingNewsTeaserSubjectBackground": "breakingNewsTeaserBackground",
+    "adBackground": "appBackground",
+    "adListSeparator": "appBackground",
+    "profileHeaderBackground": "systemBackground2",
+    "rightNowTeaserBackground": "teaserBackground",
+    "titleIconColor": "onChromeColor",
+    "adColor": "#FFCC00",
+    "teaserAdHeadline": "teaserText",
+    "rightNowTeaserLeftBorder": "rightNowTeaserHeadlinePrefix",
+    "provisioningBackground": "systemBackground2",
+    "conceptBackground": "articleBackground",
+    "smallTeaserBackground": "teaserBackground",
+    "link": "hyperlink",
+    "profileTextColor": "text",
+    "breakingNewsTeaserLeadin": "white",
+    "teaserAdLeadin": "teaserText",
+    "contentPartBorderTopColor": "brandColor",
+    "teaserAdTitle": "onBrandColor",
+    "breakingNewsTeaserBackground": "#dcebf0",
+    "smallTeaserSubject": "brandColor",
+    "tabbarAction": "brandColor",
+    "mainStoryTeaserPubDate": "offWhite",
+    "tabSelected": "#ccffffff",
+    "quickTeaserBackground": "teaserBackground",
+    "provisioningInputTint": "brandColor",
+    "tabInactive": "text3",
+    "provisioningContentBackground": "systemBackground",
+    "breakingNewsTeaserHeadline": "teaserText",
+    "quickTeaserPremiumIcon": "teaserPremiumIcon",
+    "versionsTrailingIcon": "profileTrailingIcon",
+    "brandColorAlpha20Percent": "#3D1F8BDF",
+    "textOnProminentBackground": "onBrandColor",
+    "bylineTeaserSubject": "brandColor",
+    "teaserLeadin": "teaserText",
+    "teaserText2": "text2",
+    "dividerBackground": "appBackground",
+    "bookmarkTeaserBackground": "defaultTeaserBackground",
+    "breakingNewsTeaserPremiumIcon": "white",
+    "rightNowTeaserHeadline": "teaserText",
+    "relatedTeaserPubDate": "teaserText2",
+    "articleBackground2": "systemBackground2",
+    "tableHeader": "onBrandColor",
+    "articleBackground3": "systemBackground3",
+    "articleBackground4": "systemBackground4",
+    "tableFooterBorder": "tableBorder",
+    "bookmarksEmptyIconBackground": "systemBackground4",
+    "quickTeaserSubjectBackground": "quickTeaserBackground",
+    "prominentBuyButtonBackground": "prominentButtonBackground",
+    "tableBorder": "brandColor",
+    "appBackground": "systemBackground2",
+    "relatedTeaserHeadline": "teaserText",
+    "rightNowTeaserHeadlinePrefix": "red",
+    "teaserSectionBackground": "brandColor",
+    "teaserSubject": "teaserText"
+  },
+  "size": {
+    "small": 13,
+    "madmansrowPaddingVertical": "bodyPaddingVertical",
+    "imageGallery": "textMedium",
+    "adPaddingVertical": "defaultPadding",
+    "contentPartMarginHorizontal": "defaultMargin",
+    "fallbackMarginHorizontal": "defaultMargin",
+    "textMedium": 16,
+    "articleTextSmall": "textSmall",
+    "medium": 16,
+    "xx-large": 26,
+    "headlinePaddingVertical": "defaultPadding",
+    "preamblePaddingTop": 16,
+    "defaultMargin": 12,
+    "x-small": 12,
+    "provisioningActionButtonPaddingHorizontal": 10,
+    "bodyPaddingVertical": "defaultPadding",
+    "listCellMarginTop": 2,
+    "provisioningActionButtonPaddingVertical": 10,
+    "textLarge": 24,
+    "articleTextLarge": "textLarge",
+    "relatedListCellMarginTop": 0,
+    "textMediumLarge": 18,
+    "textSmall": 14,
+    "large": 20,
+    "authorBylinePaddingVertical": 6,
+    "contentPartPaddingVertical": "defaultPadding",
+    "linkItemPaddingVertical": 6,
+    "fallbackPaddingHorizontal": "defaultPadding",
+    "profileSectionSeparatorThickness": 3,
+    "subheadline1PaddingTop": 12,
+    "xx-small": 11,
+    "contentListItemSpacing": 2,
+    "articleTextMedium": "textMedium",
+    "x-large": 24,
+    "defaultPadding": 12,
+    "xs-medium": 14,
+    "preamblePaddingVertical": 16,
+    "subheadline1PaddingBottom": 0,
+    "imageTextPaddingVertical": 6,
+    "contentPartMarginVertical": "defaultMargin",
+    "articleTextMediumLarge": "textMediumLarge",
+    "defaultPaddingHorizontal": "defaultPadding"
+  },
+  "linespacing": {
+    "articleDefaultLinespacing": 1.2,
+    "articleHeadlineLinespacing": 1.2,
+    "mainLinespacing": 1.2
+  },
+  "text": {
+    "preamble": {
+      "size": 18,
+      "color": "text",
+      "linespacing": 1.2,
+      "font": "altSemiBold"
+    },
+    "prominentButtonText": {
+      "size": "textSmall",
+      "color": "textOnProminentBackground",
+      "font": "altRegular"
+    },
+    "followHeadline": {
+      "size": "articleTextSmall",
+      "color": "text2",
+      "transforms": ["uppercase"],
+      "font": "articleAltRegular"
+    },
+    "linkItem": {
+      "size": 16,
+      "color": "linkItem",
+      "linespacing": "articleHeadlineLinespacing",
+      "font": "altSemiBold"
+    },
+    "smallTeaserHeadlinePrefix": {
+      "color": "smallTeaserHeadlinePrefix",
+      "size": "small",
+      "font": "teaserBold"
+    },
+    "provisioningBody": "emptyViewDescription",
+    "quickTeaserHeadlinePrefix": {
+      "color": "quickTeaserHeadlinePrefix",
+      "size": "medium",
+      "font": "teaserBold"
+    },
+    "tabText": {
+      "size": 16,
+      "color": "tabText",
+      "font": "altSemiBold"
+    },
+    "topicMore": {
+      "size": "small",
+      "color": "topicMoreColor",
+      "font": "altSemiBold"
+    },
+    "imageAuthorText": {
+      "size": "x-small",
+      "color": "text",
+      "linespacing": "mainLinespacing",
+      "font": "articleAltItalic"
+    },
+    "mainStoryTeaserSubject": {
+      "color": "mainStoryTeaserSubject",
+      "size": "small",
+      "transforms": ["uppercase"],
+      "font": "teaserAltSemiBold"
+    },
+    "editorsPicsTeaserHeadline": {
+      "color": "editorsPicsTeaserHeadline",
+      "size": "large",
+      "linespacing": "mainLinespacing",
+      "font": "teaserBold"
+    },
+    "editorsPicsTeaserSubject": {
+      "color": "editorsPicsTeaserSubject",
+      "size": "small",
+      "transforms": ["uppercase"],
+      "font": "teaserAltSemiBold"
+    },
+    "subscriptionBuyButton": "nonProminentButtonText",
+    "editorsPicsTeaserPubDate": {
+      "color": "editorsPicsTeaserPubDate",
+      "size": "small",
+      "font": "teaserAltRegular"
+    },
+    "breakingNewsTeaserSubject": {
+      "color": "breakingNewsTeaserSubject",
+      "size": "xs-medium",
+      "linespacing": "mainLinespacing",
+      "transforms": ["uppercase"],
+      "font": "breakingNewsTeaserSubject"
+    },
+    "quote": {
+      "color": "text",
+      "size": "textMediumLarge",
+      "linespacing": 1.25,
+      "font": "mainItalic"
+    },
+    "teaserByline": {
+      "color": "teaserByline",
+      "size": "x-large",
+      "font": "teaserLightItalic"
+    },
+    "bookmarksEmptyTitle": "emptyViewTitle",
+    "element": "default",
+    "nearmeEmptyMessage": "emptyViewDescription",
+    "consentCategoryDescription": {"size": 14},
+    "mainStoryTeaserSection": {
+      "color": "mainStoryTeaserSection",
+      "size": "small",
+      "linespacing": "mainLinespacing",
+      "font": "teaserAltRegular"
+    },
+    "mainStoryTeaserLeadin": {
+      "color": "mainStoryTeaserLeadin",
+      "size": "large",
+      "linespacing": "mainLinespacing",
+      "font": "teaserRegular"
+    },
+    "mainStoryTeaserHeadline": {
+      "color": "mainStoryTeaserHeadline",
+      "size": 22,
+      "linespacing": "mainLinespacing",
+      "font": "teaserBold"
+    },
+    "breakingNewsTeaserPubDate": {
+      "color": "breakingNewsTeaserPubDate",
+      "size": "small",
+      "font": "teaserAltRegular"
+    },
+    "appUpdateObsoleteDescription": "appUpdateRecommendedDescription",
+    "nonProminentButtonText": {
+      "size": "textSmall",
+      "color": "text",
+      "font": "altRegular"
+    },
+    "authorName": {
+      "size": 18,
+      "color": "brandColor",
+      "font": "altSemiBold"
+    },
+    "versionsSectionItemText": "profileSectionItemText",
+    "subscriptionProminentBuyButton": "prominentButtonText",
+    "subscriptionTitle": "emptyViewTitle",
+    "bylineTeaserPubDate": {
+      "color": "bylineTeaserPubDate",
+      "size": "small",
+      "font": "teaserAltRegular"
+    },
+    "offlineWarningMessage": "emptyViewDescription",
+    "appUpdateRequiredTitle": "appUpdateRecommendedTitle",
+    "adTitle": {
+      "size": "articleTextSmall",
+      "color": "text2",
+      "font": "articleAltRegular"
+    },
+    "sectionTeaserPubDate": {
+      "color": "sectionTeaserPubDate",
+      "size": "small",
+      "font": "teaserAltRegular"
+    },
+    "appUpdateRecommendedTitle": "emptyViewTitle",
+    "topicHeadline": {
+      "size": "medium",
+      "color": "brandColor",
+      "font": "altSemiBold"
+    },
+    "sectionTeaserLeadin": {
+      "color": "sectionTeaserLeadin",
+      "size": "medium",
+      "linespacing": "mainLinespacing",
+      "font": "teaserRegular"
+    },
+    "appUpdateLaterButton": "nonProminentButtonText",
+    "bookmarkTeaserSubject": {
+      "color": "bookmarkTeaserSubject",
+      "size": "small",
+      "transforms": ["uppercase"],
+      "font": "teaserAltSemiBold"
+    },
+    "imageGalleryViewerPhotographerText": {
+      "color": "offWhite",
+      "size": "imageGallery",
+      "font": "imageGallery"
+    },
+    "adContentHeader": {
+      "size": "textMedium",
+      "color": "onBrandColor",
+      "font": "articleAltRegular"
+    },
+    "default": {
+      "size": 18,
+      "color": "text",
+      "linespacing": "articleDefaultLinespacing",
+      "font": "articleRegular"
+    },
+    "smallTeaserHeadline": {
+      "color": "smallTeaserHeadline",
+      "size": "small",
+      "font": "teaserBold"
+    },
+    "conceptName": {
+      "size": "articleTextSmall",
+      "color": "text",
+      "font": "articleAltSemiBold"
+    },
+    "fallbackDescription": "default",
+    "teaserHeadline": {
+      "color": "teaserHeadline",
+      "size": 16,
+      "linespacing": "mainLinespacing",
+      "font": "altSemiBold"
+    },
+    "licensesSectionItemSecondaryText": "profileSectionItemSecondaryText",
+    "headline": {
+      "size": 20,
+      "color": "text",
+      "linespacing": "articleHeadlineLinespacing",
+      "font": "bold"
+    },
+    "provisioningInput": "emptyViewDescription",
+    "followButtonInactive": {
+      "size": "articleTextSmall",
+      "color": "followInactive",
+      "transforms": ["uppercase"],
+      "font": "articleAltRegular"
+    },
+    "profileSectionItemText": {
+      "color": "text",
+      "size": "textMedium",
+      "letterspacing": 0.075,
+      "font": "altRegular"
+    },
+    "nearmeEmptyTitle": "emptyViewTitle",
+    "fallbackTitle": {
+      "size": "articleTextMedium",
+      "color": "text",
+      "font": "articleBold"
+    },
+    "authorDescription": {
+      "size": "articleTextSmall",
+      "color": "text",
+      "font": "articleAltSemiBold"
+    },
+    "topTeaserHeadline": {
+      "color": "teaserHeadline",
+      "size": "medium",
+      "linespacing": "mainLinespacing",
+      "font": "teaserBold"
+    },
+    "quickTeaserPubDate": {
+      "color": "quickTeaserPubDate",
+      "size": "small",
+      "font": "teaserAltRegular"
+    },
+    "linkText": {
+      "size": "textSmall",
+      "color": "hyperlink",
+      "font": "altRegular"
+    },
+    "breakingNewsTeaserHeadlinePrefix": {
+      "color": "breakingNewsTeaserHeadline",
+      "size": "xx-large",
+      "font": "teaserBold"
+    },
+    "imageGalleryViewerCurrentText": {
+      "color": "white",
+      "size": "imageGallery",
+      "font": "imageGallery"
+    },
+    "provisioningTitle": "emptyViewTitle",
+    "quickTeaserLeadin": {
+      "color": "quickTeaserLeadin",
+      "size": "medium",
+      "font": "teaserRegular"
+    },
+    "smallTeaserPubDate": {
+      "color": "smallTeaserPubDate",
+      "size": "small",
+      "font": "teaserAltRegular"
+    },
+    "topicFollowing": {
+      "size": "xs-medium",
+      "color": "text2",
+      "font": "altRegular"
+    },
+    "teaserSection": {
+      "color": "teaserSection",
+      "size": "small",
+      "linespacing": "mainLinespacing",
+      "font": "teaserAltRegular"
+    },
+    "bookmarkTeaserHeadline": {
+      "size": "xs-medium",
+      "color": "text",
+      "font": "teaserAltSemiBold"
+    },
+    "date": {
+      "size": 16,
+      "color": "text2",
+      "linespacing": "mainLinespacing",
+      "font": "articleAltRegular"
+    },
+    "imageText": {
+      "size": 14,
+      "color": "text",
+      "linespacing": "mainLinespacing",
+      "font": "articleAltSemiBold"
+    },
+    "provisioningActionButton": "prominentButtonText",
+    "quickTeaserSubject": {
+      "color": "quickTeaserSubject",
+      "size": "xs-medium",
+      "transforms": ["uppercase"],
+      "font": "teaserAltSemiBold"
+    },
+    "subheadline1": {
+      "size": 18,
+      "color": "text",
+      "font": "mainBold"
+    },
+    "subject": {
+      "size": "articleTextSmall",
+      "color": "brandColor",
+      "transforms": ["uppercase"],
+      "font": "articleBold"
+    },
+    "consentText": {"size": 18},
+    "source": {
+      "color": "text",
+      "size": "small",
+      "font": "mainBoldItalic"
+    },
+    "relatedTeaserHeadlinePrefix": {
+      "color": "relatedTeaserHeadlinePrefix",
+      "size": "small",
+      "font": "teaserBold"
+    },
+    "emptyViewTitle": {
+      "size": "textMedium",
+      "color": "text",
+      "font": "altSemiBold"
+    },
+    "sectionTeaserHeadline": {
+      "color": "sectionTeaserHeadline",
+      "size": 20,
+      "linespacing": 1.0,
+      "font": "altSemiBold"
+    },
+    "sectionTeaserHeadline2": {
+      "color": "sectionTeaserHeadline",
+      "size": "38",
+      "linespacing": "mainLinespacing",
+      "font": "teaserBold"
+    },
+    "dividerLabel": "provisioningBody",
+    "quickTeaserHeadline": {
+      "color": "quickTeaserHeadline",
+      "size": "medium",
+      "font": "teaserBold"
+    },
+    "teaserAdSender": {
+      "color": "teaserAdSender",
+      "size": "small",
+      "transforms": ["uppercase"],
+      "font": "teaserRegular"
+    },
+    "editorsPicsTeaserLeadin": {
+      "color": "editorsPicsTeaserLeadin",
+      "size": "medium",
+      "linespacing": "mainLinespacing",
+      "font": "teaserRegular"
+    },
+    "appUpdateObsoleteTitle": "appUpdateRecommendedTitle",
+    "followButtonActive": {
+      "size": "articleTextSmall",
+      "color": "followActive",
+      "transforms": ["uppercase"],
+      "font": "articleAltRegular"
+    },
+    "sectionTeaserSubject": {
+      "color": "sectionTeaserSubject",
+      "size": "small",
+      "transforms": ["uppercase"],
+      "font": "teaserAltSemiBold"
+    },
+    "imageGalleryViewerTotalText": {
+      "color": "offWhite",
+      "size": "imageGallery",
+      "font": "imageGallery"
+    },
+    "bylineTeaserHeadline": {
+      "color": "bylineTeaserHeadline",
+      "size": "x-large",
+      "font": "teaserBold"
+    },
+    "consentButton": {
+      "color": "brandColor",
+      "size": 15,
+      "transforms": ["uppercase"],
+      "font": "Stag Sans-Medium.otf"
+    },
+    "teaserPubDate": {
+      "color": "teaserPubDate",
+      "size": "small",
+      "font": "teaserAltRegular"
+    },
+    "rightNowTeaserLeadin": {
+      "color": "rightNowTeaserLeadin",
+      "size": "medium",
+      "font": "teaserRegular"
+    },
+    "provisioningLink": "linkText",
+    "sectionTeaserSection": {
+      "color": "teaserSection",
+      "size": "small",
+      "linespacing": "mainLinespacing",
+      "font": "teaserAltRegular"
+    },
+    "offlineWarningTitle": "emptyViewTitle",
+    "subscriptionDisclosure": "provisioningBody",
+    "profileSectionHeader": {
+      "size": 13,
+      "color": "brandColor",
+      "letterspacing": 0.075,
+      "font": "sansMedium"
+    },
+    "purchaseSubscriptionLoginButton": "prominentButtonText",
+    "nearmeEmptyButton": "prominentButtonText",
+    "toolbarTitle": {
+      "color": "toolbarAction",
+      "size": "textMediumLarge",
+      "font": "altSemiBold"
+    },
+    "authorByline": {
+      "size": 16,
+      "color": "text",
+      "linespacing": "mainLinespacing",
+      "font": "articleAltRegular"
+    },
+    "topic": {
+      "size": "medium",
+      "color": "text",
+      "font": "altRegular"
+    },
+    "subscriptionDescription": "emptyViewDescription",
+    "emptyViewDescription": {
+      "size": "textSmall",
+      "color": "text",
+      "font": "altRegular"
+    },
+    "appUpdateRecommendedDescription": "emptyViewDescription",
+    "teaserAdHeadline": {
+      "color": "teaserAdHeadline",
+      "size": "textMediumLarge",
+      "font": "teaserBold"
+    },
+    "licensesSectionItemText": "profileSectionItemText",
+    "breakingNewsTeaserLeadin": {
+      "color": "breakingNewsTeaserLeadin",
+      "size": "medium",
+      "font": "teaserRegular"
+    },
+    "teaserAdLeadin": {
+      "color": "teaserAdLeadin",
+      "size": "medium",
+      "font": "teaserRegular"
+    },
+    "title": {
+      "size": "articleTextMedium",
+      "color": "text",
+      "font": "articleBold"
+    },
+    "teaserAdTitle": {
+      "color": "teaserAdTitle",
+      "size": "xx-small",
+      "transforms": ["uppercase"],
+      "font": "teaserAltRegular"
+    },
+    "smallTeaserSubject": {
+      "color": "smallTeaserSubject",
+      "size": "xs-medium",
+      "transforms": ["uppercase"],
+      "font": "teaserAltSemiBold"
+    },
+    "profileSectionItemSecondaryText": "secondaryText",
+    "mainStoryTeaserPubDate": {
+      "color": "mainStoryTeaserPubDate",
+      "size": "small",
+      "font": "teaserAltRegular"
+    },
+    "appUpdateRequiredDescription": "appUpdateRecommendedDescription",
+    "breakingNewsTeaserHeadline": {
+      "color": "breakingNewsTeaserHeadline",
+      "size": "x-large",
+      "linespacing": "mainLinespacing",
+      "font": "breakingNewsTeaserHeadline"
+    },
+    "smallTeaserLeadin": {
+      "color": "smallTeaserLeadin",
+      "size": "medium",
+      "font": "teaserRegular"
+    },
+    "offlineBannerText": {
+      "color": "offWhite",
+      "size": "textMedium",
+      "font": "altRegular"
+    },
+    "bylineTeaserSubject": {
+      "color": "bylineTeaserSubject",
+      "size": "xs-medium",
+      "transforms": ["uppercase"],
+      "font": "teaserAltSemiBold"
+    },
+    "teaserLeadin": {
+      "color": "teaserLeadin",
+      "size": "medium",
+      "font": "teaserRegular"
+    },
+    "relatedTeaserLeadin": {
+      "color": "relatedTeaserLeadin",
+      "size": "medium",
+      "font": "teaserRegular"
+    },
+    "authorBylineBy": "authorByline",
+    "provisioningLeadin": "emptyViewDescription",
+    "rightNowTeaserHeadline": {
+      "color": "rightNowTeaserHeadline",
+      "size": "medium",
+      "linespacing": "mainLinespacing",
+      "transforms": null,
+      "font": "teaserBold"
+    },
+    "relatedTeaserPubDate": {
+      "color": "relatedTeaserPubDate",
+      "size": "small",
+      "font": "teaserAltRegular"
+    },
+    "tableHeader": {
+      "size": "articleTextSmall",
+      "color": "tableHeader",
+      "linespacing": "mainLinespacing",
+      "font": "articleRegular"
+    },
+    "appUpdateUpdateButton": "prominentButtonText",
+    "imageGalleryViewerCaptionText": {
+      "color": "white",
+      "size": "imageGallery",
+      "font": "imageGallery"
+    },
+    "searchEmptyTitle": "emptyViewDescription",
+    "bookmarkTeaserPubDate": {
+      "size": "small",
+      "color": "text2",
+      "font": "teaserAltRegular"
+    },
+    "toolbarSearch": {
+      "color": "toolbarAction",
+      "size": "textMedium",
+      "font": "altRegular"
+    },
+    "versionsSectionItemSecondaryText": "profileSectionItemSecondaryText",
+    "consentCategoryTitle": {
+      "size": 18,
+      "font": "Stag Sans-Medium.otf"
+    },
+    "rightNowTeaserHeadlinePrefix": {
+      "color": "rightNowTeaserHeadlinePrefix",
+      "size": "xs-medium",
+      "linespacing": "mainLinespacing",
+      "transforms": ["uppercase"],
+      "font": "teaserAltRegular"
+    },
+    "relatedTeaserHeadline": {
+      "color": "relatedTeaserHeadline",
+      "size": "small",
+      "linespacing": "mainLinespacing",
+      "font": "teaserAltRegular"
+    },
+    "category": {
+      "size": "articleTextSmall",
+      "color": "brandColor",
+      "transforms": ["uppercase"],
+      "font": "articleAltSemiBold"
+    },
+    "fallbackContext": {
+      "size": "articleTextSmall",
+      "color": "brandColor",
+      "transforms": ["uppercase"],
+      "font": "articleAltSemiBold"
+    },
+    "bookmarksEmptyMessage": "emptyViewDescription",
+    "teaserSubject": {
+      "color": "brandColor",
+      "size": 12,
+      "transforms": ["uppercase"],
+      "font": "altSemiBold"
+    }
+  },
+  "font": {
+    "imageGallery": "altRegular",
+    "mainRegular": "Montserrat-Regular.ttf",
+    "articleRegular": "mainRegular",
+    "altBold": "Montserrat-Bold.ttf",
+    "teaserLightItalic": "altItalic",
+    "articleBold": "mainBold",
+    "altRegular": "Montserrat-Regular.ttf",
+    "teaserAltRegular": "altRegular",
+    "teaserAltSemiBold": "altRegular",
+    "mainBold": "Montserrat-Bold.ttf",
+    "mainBoldItalic": "Montserrat-BoldItalic.ttf",
+    "teaserBold": "mainBold",
+    "articleAltItalic": "altItalic",
+    "breakingNewsTeaserSubject": "Montserrat-Medium.ttf",
+    "articleAltSemiBold": "altSemiBold",
+    "articleAltBold": "altBold",
+    "teaserRegular": "mainRegular",
+    "mainItalic": "Montserrat-Italic.ttf",
+    "altSemiBold": "Montserrat-SemiBold.ttf",
+    "altItalic": "Montserrat-LightItalic.ttf",
+    "tabFont": "altRegular",
+    "articleAltRegular": "altRegular",
+    "breakingNewsTeaserHeadline": "Montserrat-SemiBold.ttf",
+    "teaserAltBold": "altBold",
+    "bold": "Montserrat-Bold.ttf"
+  }
+}

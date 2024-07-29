@@ -1,0 +1,4 @@
+{"liveContent": {
+  "search": {"baseQuery": "Status:usable AND (ConceptPlaceUuids:2482CF6E-5377-42DD-AA68-43D2DC957845)"},
+  "stream": {"baseQuery": {"query_string": {"query": "Status:usable AND (ConceptPlaceUuids:2482CF6E-5377-42DD-AA68-43D2DC957845)"}}}
+}}

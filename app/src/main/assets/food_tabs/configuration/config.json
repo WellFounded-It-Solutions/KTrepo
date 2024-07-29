@@ -1,0 +1,20 @@
+{"tabs": [
+  {
+    "module": "ContentList",
+    "id": "food",
+    "parent": "food_tab",
+    "title": "Food"
+  },
+  {
+    "module": "ContentList",
+    "id": "recipes",
+    "parent": "food_tab",
+    "title": "Recipes"
+  },
+  {
+    "module": "ContentList",
+    "id": "food_listings",
+    "parent": "food_tab",
+    "title": "Food Listings"
+  }
+]}

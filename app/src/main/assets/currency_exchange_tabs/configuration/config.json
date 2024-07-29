@@ -1,0 +1,17 @@
+{"tabs": [
+  {
+    "module": "Article",
+    "id": "uaerates",
+    "title": "UAE"
+  },
+  {
+    "module": "Article",
+    "id": "bahrainrates",
+    "title": "Bahrain"
+  },
+  {
+    "module": "Article",
+    "id": "qatarrates",
+    "title": "Qatar"
+  }
+]}

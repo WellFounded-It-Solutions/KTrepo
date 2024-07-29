@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="12dp"
+    android:text="@string/content_marketing_disclaimer"
+    app:themeBackgroundColor="adContentHeaderBackground"
+    app:themeKey="adContentHeader" />

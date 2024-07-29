@@ -1,0 +1,121 @@
+{
+  "liveContent": {
+    "search": {"baseQuery": "uuid:8cdce398-b4c3-491d-b72e-006b62f5f72a"},
+    "stream": {"baseQuery": {"query_string": {"query": "uuid:8cdce398-b4c3-491d-b72e-006b62f5f72a"}}}
+  },
+  "ads": {"stickyArticle": {"providerConfiguration": {
+    "adId": "/78059622/Prayer-Timing-App-320x50-sticky",
+    "width": 320,
+    "height": 50
+  }}},
+  "preprocessors": [
+    {
+      "name": "image",
+      "config": {
+        "baseUrl": "https://imengine.public.stage.ktd.infomaker.io",
+        "preferredCrop": "16:9",
+        "text": "all",
+        "imageProvider": "imengine"
+      }
+    },
+    {
+      "name": "imagegallery",
+      "config": {
+        "baseUrl": "https://imengine.public.stage.ktd.infomaker.io",
+        "preferredCrop": "16:9",
+        "text": "all",
+        "imageProvider": "imengine",
+        "fallbackCrop": "16:9"
+      }
+    },
+    {
+      "name": "htmlEmbed",
+      "config": {
+        "baseUrl": "https://www.infomaker.se",
+        "aspectRatio": "2:1",
+        "embed": [{
+          "method": "internal",
+          "pattern": "google.com/maps"
+        }]
+      }
+    },
+    {
+      "name": "fallbackTemplate",
+      "config": {
+        "keyTemplate": "{{context}}:{{provider}}",
+        "templateMap": "fallbackTemplates.json"
+      }
+    },
+    {
+      "name": "ad",
+      "config": {
+        "provider": "GoogleMobileAds",
+        "providerConfiguration": [
+          {
+            "adId": "/78059622/Prayer-Timing-App-300x250-1",
+            "width": 300,
+            "height": 250
+          },
+          {
+            "adId": "/78059622/Prayer-Timing-App-300x250-2",
+            "width": 300,
+            "height": 250
+          }
+        ]
+      }
+    },
+    {
+      "name": "move",
+      "config": {
+        "select": {
+          "type": "ad",
+          "subset": "first"
+        },
+        "insert": {
+          "select": {
+            "type": "table",
+            "subset": "first"
+          },
+          "method": "relative",
+          "position": "before"
+        }
+      }
+    }
+  ],
+  "contentPresentation": {"articles": [{"afterPreprocessors": [{
+    "name": "applyPreprocessors",
+    "config": {
+      "select": {
+        "type": "element",
+        "matching": {"prefix": "prayer-times"}
+      },
+      "preprocessors": [{
+        "name": "prayer",
+        "config": {"locations": [
+          {
+            "name": "Abu Dhabi",
+            "offsetInMinutes": 4
+          },
+          {"name": "Ajman"},
+          {
+            "defaultSelected": true,
+            "name": "Dubai"
+          },
+          {
+            "name": "Fujairah",
+            "offsetInMinutes": -6
+          },
+          {
+            "name": "Ras Al Khaimah",
+            "offsetInMinutes": -4
+          },
+          {"name": "Sharjah"},
+          {
+            "name": "Umm Al Quwain",
+            "offsetInMinutes": -4
+          }
+        ]}
+      }]
+    }
+  }]}]}
+}

@@ -1,0 +1,44 @@
+{"tabs": [
+  {
+    "module": "ContentList",
+    "parent": "sports_tab",
+    "id": "sports",
+    "title": "Sports"
+  },
+  {
+    "module": "ContentList",
+    "parent": "sports_tab",
+    "id": "cricket",
+    "title": "Cricket"
+  },
+  {
+    "module": "ContentList",
+    "parent": "sports_tab",
+    "id": "f1",
+    "title": "F1"
+  },
+  {
+    "module": "ContentList",
+    "parent": "sports_tab",
+    "id": "football",
+    "title": "Football"
+  },
+  {
+    "module": "ContentList",
+    "parent": "sports_tab",
+    "id": "golf",
+    "title": "Golf"
+  },
+  {
+    "module": "ContentList",
+    "parent": "sports_tab",
+    "id": "horse_racing",
+    "title": "Horse Racing"
+  },
+  {
+    "module": "ContentList",
+    "parent": "sports_tab",
+    "id": "tennis",
+    "title": "Tennis"
+  }
+]}

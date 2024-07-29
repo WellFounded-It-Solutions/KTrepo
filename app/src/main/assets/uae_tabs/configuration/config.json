@@ -1,0 +1,98 @@
+{"tabs": [
+  {
+    "module": "ContentList",
+    "id": "uae",
+    "parent":"uae_tabs",
+    "title": "UAE"
+  },
+  {
+    "module": "ContentList",
+    "id": "local_plus",
+    "parent":"uae_tabs",
+    "title": "Local Plus"
+  },
+  {
+    "module": "ContentList",
+    "id": "abu_dhabi",
+    "parent":"uae_tabs",
+    "title": "Abu Dhabi"
+  },
+  {
+    "module": "ContentList",
+    "id": "dubai",
+    "parent":"uae_tabs",
+    "title": "Dubai"
+  },
+  {
+    "module": "ContentList",
+    "id": "sharjah",
+    "parent":"uae_tabs",
+    "title": "Sharjah"
+  },
+  {
+    "module": "ContentList",
+    "id": "ajman",
+    "parent":"uae_tabs",
+    "title": "Ajman"
+  },
+  {
+    "module": "ContentList",
+    "id": "ras_al_khaimah",
+    "parent":"uae_tabs",
+    "title": "Ras Al Khaimah"
+  },
+  {
+    "module": "ContentList",
+    "id": "fujairah",
+    "parent":"uae_tabs",
+    "title": "Fujairah"
+  },
+  {
+    "module": "ContentList",
+    "id": "umm_al_quwain",
+    "parent":"uae_tabs",
+    "title": "Umm Al Quwain"
+  },
+  {
+    "module": "ContentList",
+    "id": "crime",
+    "parent":"uae_tabs",
+    "title": "Crime"
+  },
+  {
+    "module": "ContentList",
+    "id": "education",
+    "parent":"uae_tabs",
+    "title": "Education"
+  },
+  {
+    "module": "ContentList",
+    "id": "environment",
+    "parent":"uae_tabs",
+    "title": "Environment"
+  },
+  {
+    "module": "ContentList",
+    "id": "government",
+    "parent":"uae_tabs",
+    "title": "Government"
+  },
+  {
+    "module": "ContentList",
+    "id": "legal",
+    "parent":"uae_tabs",
+    "title": "Legal"
+  },
+  {
+    "module": "ContentList",
+    "id": "transport",
+    "parent":"uae_tabs",
+    "title": "Transport"
+  },
+  {
+    "module": "ContentList",
+    "id": "weather",
+    "parent":"uae_tabs",
+    "title": "Weather"
+  }
+]}

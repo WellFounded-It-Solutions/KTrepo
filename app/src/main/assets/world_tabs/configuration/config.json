@@ -1,0 +1,86 @@
+{"tabs": [
+  {
+    "module": "ContentList",
+    "parent": "world_tabs",
+    "id": "world",
+    "title": "World"
+  },
+  {
+    "module": "ContentList",
+    "parent": "world_tabs",
+    "id": "saudi_arabia",
+    "title": "Saudi Arabia"
+  },
+  {
+    "module": "ContentList",
+    "parent": "world_tabs",
+    "id": "bahrain",
+    "title": "Bahrain"
+  },
+  {
+    "module": "ContentList",
+    "parent": "world_tabs",
+    "id": "oman",
+    "title": "Oman"
+  },
+  {
+    "module": "ContentList",
+    "parent": "world_tabs",
+    "id": "kuwait",
+    "title": "Kuwait"
+  },
+  {
+    "module": "ContentList",
+    "parent": "world_tabs",
+    "id": "qatar",
+    "title": "Qatar"
+  },
+  {
+    "module": "ContentList",
+    "parent": "world_tabs",
+    "id": "mena",
+    "title": "MENA"
+  },
+  {
+    "module": "ContentList",
+    "parent": "world_tabs",
+    "id": "india",
+    "title": "India"
+  },
+  {
+    "module": "ContentList",
+    "parent": "world_tabs",
+    "id": "pakistan",
+    "title": "Pakistan"
+  },
+  {
+    "module": "ContentList",
+    "parent": "world_tabs",
+    "id": "philippines",
+    "title": "Philippines"
+  },
+  {
+    "module": "ContentList",
+    "parent": "world_tabs",
+    "id": "americas",
+    "title": "Americas"
+  },
+  {
+    "module": "ContentList",
+    "parent": "world_tabs",
+    "id": "europe",
+    "title": "Europe"
+  },
+  {
+    "module": "ContentList",
+    "parent": "world_tabs",
+    "id": "africa",
+    "title": "Africa"
+  },
+  {
+    "module": "ContentList",
+    "parent": "world_tabs",
+    "id": "gulf",
+    "title": "Gulf"
+  }
+]}

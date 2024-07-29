@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    app:themeBackgroundColor="articleBackground">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:padding="16dp"
+        app:cardCornerRadius="0dp">
+
+        <se.infomaker.iap.theme.view.ThemeableTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:text="Read more"
+            app:themeKey="followHeadline" />
+    </androidx.cardview.widget.CardView>
+</se.infomaker.iap.theme.view.ThemeableConstraintLayout>

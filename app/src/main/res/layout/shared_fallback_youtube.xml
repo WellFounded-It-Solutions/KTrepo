@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:orientation="vertical"
+    app:themeBackgroundColor="fallbackBackground"
+    tools:background="#e7c3c3">
+
+    <se.infomaker.iap.theme.view.ThemeableImageView
+        android:id="@+id/logo"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/shared_youtube_social_squircle_red"
+        app:layout_constraintBottom_toTopOf="@id/image"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:themeKey="fallbackContext"
+        tools:text="Context" />
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/logo"
+        app:layout_constraintLeft_toRightOf="@id/logo"
+        app:layout_constraintTop_toTopOf="@id/logo"
+        app:themeKey="fallbackTitle"
+        tools:text="Title" />
+
+
+    <se.infomaker.iap.theme.view.ThemeableImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        tools:background="#dd666666"
+        tools:layout_height="200dp" />
+
+
+    <se.infomaker.iap.theme.view.ThemeableImageView
+        android:id="@+id/play"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/shared_play"
+        app:layout_constraintBottom_toBottomOf="@id/image"
+        app:layout_constraintLeft_toLeftOf="@id/image"
+        app:layout_constraintRight_toRightOf="@id/image"
+        app:layout_constraintTop_toTopOf="@id/image"
+        app:themeKey="fallbackContext"
+        tools:text="Context" />
+
+</se.infomaker.iap.theme.view.ThemeableConstraintLayout>

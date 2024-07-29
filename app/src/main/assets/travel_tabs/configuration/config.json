@@ -1,0 +1,26 @@
+{"tabs": [
+  {
+    "module": "ContentList",
+    "parent": "travel_tab",
+    "id": "travel",
+    "title": "Travel"
+  },
+  {
+    "module": "ContentList",
+    "parent": "travel_tab",
+    "id": "staycations",
+    "title": "Staycations"
+  },
+  {
+    "module": "ContentList",
+    "parent": "travel_tab",
+    "id": "vacations",
+    "title": "Vacations"
+  },
+  {
+    "module": "ContentList",
+    "parent": "travel_tab",
+    "id": "uae_attractions",
+    "title": "UAE Attractions"
+  }
+]}

@@ -1,0 +1,38 @@
+{"tabs": [
+  {
+    "module": "ContentList",
+    "parent": "reviews_tab",
+    "id": "reviews",
+    "title": "Reviews"
+  },
+  {
+    "module": "ContentList",
+    "parent": "reviews_tab",
+    "id": "tech_reviews",
+    "title": "Tech Reviews"
+  },
+  {
+    "module": "ContentList",
+    "parent": "reviews_tab",
+    "id": "motoring_reviews",
+    "title": "Motoring Reviews"
+  },
+  {
+    "module": "ContentList",
+    "parent": "reviews_tab",
+    "id": "movie_reviews",
+    "title": "Movie Reviews"
+  },
+  {
+    "module": "ContentList",
+    "parent": "reviews_tab",
+    "id": "book_reviews",
+    "title": "Book Reviews"
+  },
+  {
+    "module": "ContentList",
+    "parent": "reviews_tab",
+    "id": "restaurant_reviews",
+    "title": "Restaurant Reviews"
+  }
+]}

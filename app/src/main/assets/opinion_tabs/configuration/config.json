@@ -1,0 +1,20 @@
+{"tabs": [
+  {
+    "module": "ContentList",
+    "parent": "opinion_tab",
+    "id": "opinion",
+    "title": "Opinion"
+  },
+  {
+    "module": "ContentList",
+    "parent": "opinion_tab",
+    "id": "columnists",
+    "title": "Columnists"
+  },
+  {
+    "module": "ContentList",
+    "parent": "opinion_tab",
+    "id": "editorial",
+    "title": "Editorial"
+  }
+]}

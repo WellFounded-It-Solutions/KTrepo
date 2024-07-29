@@ -1,0 +1,629 @@
+{
+  "remoteNotification": {
+    "pubdateKey": "Pubdate",
+    "imageIdKey": "TeaserImageUuids",
+    "contentIdKey": "uuid",
+    "subtitleKey": "TeaserHeadline"
+  },
+  "liveContent": {
+    "opencontentUsername": "ktd",
+    "search": {"baseQuery": "Status:usable"},
+    "querystreamerPassword": "160206bc-2a88-43c9-9995-96624d2f7242",
+    "typePropertyMap": {
+      "ArticleWithRelatedContent": {
+        "teaserImageWidth": {"name": "TeaserImageWidth"},
+        "customerVideoId": {"name": "CustomerVideoId"},
+        "contentId": {"name": "uuid"},
+        "sectionUuids": {"name": "ConceptSectionUuids"},
+        "section": {"name": "Section"},
+        "type": {"name": "Type"},
+        "newsML": {"name": "BodyRaw"},
+        "authorsRaw": {"name": "AuthorsRaw"},
+        "teaserHeadline": {
+          "name": "TeaserHeadline",
+          "transforms": [
+            "htmlStrip",
+            "formatReplace"
+          ]
+        },
+        "categories": {
+          "propertyMapReference": "FollowableConcept",
+          "name": "Categories"
+        },
+        "customerTopSection": {"name": "CustomerTopSection"},
+        "contentType": {"name": "contenttype"},
+        "publicationDate": {"name": "Pubdate"},
+        "customerByline": {"name": "CustomerByline"},
+        "stories": {
+          "propertyMapReference": "FollowableConcept",
+          "name": "Stories"
+        },
+        "teaserLeadin": {
+          "name": "TeaserBody",
+          "transforms": [
+            "htmlStrip",
+            "formatReplace"
+          ]
+        },
+        "author": {
+          "propertyMapReference": "Author",
+          "name": "Authors"
+        },
+        "customerContentSubType": {"name": "CustomerContentSubType"},
+        "sections": {
+          "propertyMapReference": "FollowableConcept",
+          "name": "Sections"
+        },
+        "teaserImageUuid": {"name": "TeaserImageUuids"},
+        "tags": {
+          "propertyMapReference": "FollowableConcept",
+          "name": "Tags"
+        },
+        "relatedArticles": {
+          "propertyMapReference": "Article",
+          "name": "Articles"
+        },
+        "authorNames": {"name": "CustomerAuthorNames"},
+        "geometries": {
+          "propertyMapReference": "FollowableConcept",
+          "name": "Places"
+        },
+        "teaserImageCrop": {"name": "TeaserImageCrop"},
+        "isPremium": {"name": "CustomerAccessModelPremiumOrMetered"},
+        "teaserImageCrops": {"name": "TeaserImageCrops"},
+        "teaserSubject": {"name": "TeaserSubject"},
+        "teaserImageHeight": {"name": "TeaserImageHeight"}
+      },
+      "ListWithRelatedArticles": {
+        "contentOrder": {"name": "ContentUuids"},
+        "contentId": {"name": "uuid"},
+        "contentType": {"name": "contenttype"},
+        "articles": {
+          "propertyMapReference": "ArticleWithRelatedContent",
+          "name": "Articles"
+        }
+      },
+      "Article": {
+        "teaserImageWidth": {"name": "TeaserImageWidth"},
+        "customerVideoId": {"name": "CustomerVideoId"},
+        "contentId": {"name": "uuid"},
+        "sectionUuids": {"name": "ConceptSectionUuids"},
+        "section": {"name": "Section"},
+        "type": {"name": "Type"},
+        "newsML": {"name": "BodyRaw"},
+        "authorsRaw": {"name": "AuthorsRaw"},
+        "teaserHeadline": {
+          "name": "TeaserHeadline",
+          "transforms": [
+            "htmlStrip",
+            "formatReplace"
+          ]
+        },
+        "categories": {
+          "propertyMapReference": "FollowableConcept",
+          "name": "Categories"
+        },
+        "customerTopSection": {"name": "CustomerTopSection"},
+        "contentType": {"name": "contenttype"},
+        "publicationDate": {"name": "Pubdate"},
+        "customerByline": {"name": "CustomerByline"},
+        "stories": {
+          "propertyMapReference": "FollowableConcept",
+          "name": "Stories"
+        },
+        "teaserLeadin": {
+          "name": "TeaserBody",
+          "transforms": [
+            "htmlStrip",
+            "formatReplace"
+          ]
+        },
+        "author": {
+          "propertyMapReference": "Author",
+          "name": "Authors"
+        },
+        "customerContentSubType": {"name": "CustomerContentSubType"},
+        "sections": {
+          "propertyMapReference": "FollowableConcept",
+          "name": "Sections"
+        },
+        "teaserImageUuid": {"name": "TeaserImageUuids"},
+        "tags": {
+          "propertyMapReference": "FollowableConcept",
+          "name": "Tags"
+        },
+        "authorNames": {"name": "CustomerAuthorNames"},
+        "geometries": {
+          "propertyMapReference": "FollowableConcept",
+          "name": "Places"
+        },
+        "teaserImageCrop": {"name": "TeaserImageCrop"},
+        "isPremium": {"name": "CustomerAccessModelPremiumOrMetered"},
+        "teaserImageCrops": {"name": "TeaserImageCrops"},
+        "teaserSubject": {"name": "TeaserSubject"},
+        "teaserImageHeight": {"name": "TeaserImageHeight"}
+      },
+      "FollowableConcept": {
+        "contentId": {"name": "uuid"},
+        "name": {"name": "Name"},
+        "contentType": {"name": "contenttype"}
+      },
+      "Author": {
+        "contentId": {"name": "uuid"},
+        "name": {"name": "Name"},
+        "description": {"name": "DescriptionShort"},
+        "contentType": {"name": "contenttype"}
+      },
+      "List": {
+        "contentOrder": {"name": "ContentUuids"},
+        "contentId": {"name": "uuid"},
+        "contentType": {"name": "contenttype"},
+        "articles": {
+          "propertyMapReference": "Article",
+          "name": "Articles"
+        }
+      }
+    },
+    "eventNotifierBroadcastId": "infocaster-public-all",
+    "infocaster": "wss://infocaster.lcc.infomaker.io/v1/publisher/ktd-public/session",
+    "stream": {"baseQuery": {"query_string": {"query": "Status:usable"}}},
+    "querystreamer": "https://querystreamer.lcc.infomaker.io/v1/stream-provider/ktd-public/",
+    "querystreamerUsername": "ktd-public",
+    "opencontent": "https://xlibris.public.prod.oc.ktd.infomaker.io:9999",
+    "infocasterToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bml0Ijoia3RkLXB1YmxpYyIsImFjY2VzcyI6eyJpYyI6eyJyIjpbIi4qIl19fSwiaWF0IjoxNjIzMzI1ODY4LCJleHAiOjc5MzQ4NDU4Njh9.P79A0MJ7XQ66RUniup-SkI64B3bp3XNK9-zCBB0DNNI",
+    "opencontentPassword": "ycvyxveQyR72xaENKK@QqBcB"
+  },
+  "pushApplication": "arn:aws:sns:eu-west-1:386836030723:app/GCM/ComKhaleejtimesProduction",
+  "featureConfiguration": {"readArticle": {"permissions": [{
+    "freeLimit": {
+      "unit": "minute",
+      "limit": 5,
+      "interval": 5
+    },
+    "property": "isPremium",
+    "permission": "premium"
+  }]}},
+  "pushTopic": "arn:aws:sns:eu-west-1:386836030723:ComKhaleejtimesProduction",
+  "sharing": {"shareApiUrl": "https://www.khaleejtimes.com/api/oc-post/"},
+  "enablePushOnSubscription": true,
+  "ads": {
+    "distanceMax": 6,
+    "distanceMin": 4,
+    "provider": "GoogleMobileAds",
+    "stickyArticle": {"providerConfiguration": {
+      "adId": "/78059622/Article-App-320x50-sticky",
+      "width": 320,
+      "height": 50
+    }},
+    "sticky": {"providerConfiguration": {
+      "adId": "/78059622/Section-App-320x50-sticky",
+      "width": 320,
+      "height": 50
+    }},
+    "providerConfiguration": [
+      {
+        "adId": "/78059622/Section-App-300x250-1",
+        "width": 300,
+        "height": 250
+      },
+      {
+        "adId": "/78059622/Section-App-300x250-2",
+        "width": 300,
+        "height": 250
+      }
+    ]
+  },
+  "allowedWebViewIntents": [{"com.soundcloud.android": {"schemes": ["soundcloud"]}}],
+  "pushRegisterURL": "https://push.infomaker.io/api/register",
+  "imageBaseUrl": "https://imengine.public.prod.ktd.infomaker.io/",
+  "preprocessors": [
+    {
+      "name": "customerContentSubType",
+      "config": {}
+    },
+    {
+      "name": "image",
+      "config": {
+        "baseUrl": "https://imengine.public.prod.ktd.infomaker.io/",
+        "preferredCrop": "16:9",
+        "text": "all",
+        "imageProvider": "imengine"
+      }
+    },
+    {
+      "name": "imagegallery",
+      "config": {
+        "baseUrl": "https://imengine.public.prod.ktd.infomaker.io/",
+        "preferredCrop": "16:9",
+        "text": "all",
+        "imageProvider": "imengine",
+        "fallbackCrop": "16:9"
+      }
+    },
+    {
+      "name": "htmlEmbed",
+      "config": {
+        "baseUrl": "https://www.infomaker.se",
+        "aspectRatio": "2:1",
+        "embed": [{
+          "method": "internal",
+          "pattern": "google.com/maps"
+        }]
+      }
+    },
+    {
+      "name": "move",
+      "config": {
+        "select": {
+          "type": "image",
+          "subset": "first"
+        },
+        "insert": {
+          "method": "index",
+          "position": 0
+        }
+      }
+    },
+    {
+      "name": "date",
+      "config": {
+        "outputFormat": "MMMM d h.mm a",
+        "properties": ["publicationDate"]
+      }
+    },
+    {
+      "name": "elementMerger",
+      "config": {
+        "insert": {
+          "select": {
+            "type": "element",
+            "subset": "last",
+            "matching": {"type": "headline"}
+          },
+          "method": "relative",
+          "position": "after",
+          "fallback": {
+            "select": {
+              "type": "element",
+              "subset": "first",
+              "matching": {"type": "dateline"}
+            },
+            "method": "relative"
+          }
+        },
+        "selectors": [
+          {
+            "type": "element",
+            "matching": {"type": "dateline"}
+          },
+          {
+            "type": "element",
+            "subset": "first",
+            "matching": {"type": "date"}
+          }
+        ],
+        "themeKey": "dateline"
+      }
+    },
+    {
+      "name": "propertyElement",
+      "config": {"properties": [{
+        "property": "customerByline",
+        "type": "authorByline"
+      }]}
+    },
+    {
+      "name": "elementTemplate",
+      "config": {
+        "template": "By",
+        "require": [{
+          "type": "itemCount",
+          "config": {
+            "min": 1,
+            "select": {
+              "type": "element",
+              "matching": {"type": "authorByline"}
+            }
+          }
+        }],
+        "type": "authorBylineBy"
+      }
+    },
+    {
+      "name": "elementMerger",
+      "config": {
+        "insert": {
+          "select": {
+            "type": "element",
+            "subset": "last",
+            "matching": {"type": "headline"}
+          },
+          "method": "relative",
+          "position": "after",
+          "fallback": {
+            "select": {
+              "type": "element",
+              "subset": "first",
+              "matching": {"type": "dateline"}
+            },
+            "method": "relative"
+          }
+        },
+        "selectors": [
+          {
+            "type": "element",
+            "matching": {"type": "authorBylineBy"}
+          },
+          {
+            "type": "element",
+            "matching": {"type": "authorByline"}
+          }
+        ],
+        "themeKey": "authorByline"
+      }
+    },
+    {
+      "name": "author",
+      "config": {
+        "propertyKey": "author",
+        "template": "author",
+        "keyPath": "contentId",
+        "authorsRawKey": "authorsRaw",
+        "selectorType": "author",
+        "articleProperty": "ConceptAuthorUuids",
+        "titleKey": "name"
+      }
+    },
+    {
+      "name": "followPropertyObject",
+      "config": {
+        "propertyKey": "stories",
+        "template": "concept",
+        "keyPath": "contentId",
+        "selectorType": "follow",
+        "articleProperty": "ConceptStoryUuids",
+        "titleKey": "name"
+      }
+    },
+    {
+      "name": "followPropertyObject",
+      "config": {
+        "propertyKey": "categories",
+        "template": "concept",
+        "keyPath": "contentId",
+        "selectorType": "follow",
+        "articleProperty": "ConceptCategoryUuids",
+        "titleKey": "name"
+      }
+    },
+    {
+      "name": "followPropertyObject",
+      "config": {
+        "propertyKey": "geometries",
+        "template": "concept",
+        "keyPath": "contentId",
+        "selectorType": "follow",
+        "articleProperty": "ConceptPlaceUuids",
+        "titleKey": "name"
+      }
+    },
+    {
+      "name": "followPropertyObject",
+      "config": {
+        "propertyKey": "tags",
+        "template": "concept",
+        "keyPath": "contentId",
+        "selectorType": "follow",
+        "articleProperty": "ConceptTagUuids",
+        "titleKey": "name"
+      }
+    },
+    {
+      "name": "divider",
+      "config": {
+        "select": {
+          "type": "element",
+          "matching": {"type": "contentExplanation"}
+        },
+        "placement": "before",
+        "themeKey": "authorSeparator"
+      }
+    },
+    {
+      "name": "staticItem",
+      "config": {
+        "template": "follow_header",
+        "require": [{
+          "type": "itemCount",
+          "config": {
+            "min": 1,
+            "select": {"type": "follow"}
+          }
+        }],
+        "selectorType": "followHeader"
+      }
+    },
+    {
+      "name": "move",
+      "config": {
+        "select": {"type": "followFooter"},
+        "insert": {
+          "select": {
+            "type": "follow",
+            "subset": "last"
+          },
+          "method": "relative",
+          "position": "after"
+        }
+      }
+    },
+    {
+      "name": "move",
+      "config": {
+        "select": {"type": "followHeader"},
+        "insert": {
+          "select": {
+            "type": "follow",
+            "subset": "first"
+          },
+          "method": "relative",
+          "position": "before"
+        }
+      }
+    },
+    {
+      "name": "divider",
+      "config": {
+        "select": {"type": "author"},
+        "placement": "between|before",
+        "themeKey": "authorSeparator"
+      }
+    },
+    {
+      "name": "divider",
+      "config": {
+        "select": {"type": "follow"},
+        "placement": "between|before",
+        "themeKey": "follow"
+      }
+    },
+    {
+      "name": "fallbackTemplate",
+      "config": {
+        "keyTemplate": "{{context}}:{{provider}}",
+        "templateMap": "fallbackTemplates.json"
+      }
+    },
+    {
+      "name": "ad",
+      "config": {
+        "insertStrategy": {
+          "strategy": "interval",
+          "config": {
+            "select": {
+              "type": "element",
+              "matching": {"type": "body"}
+            },
+            "alwaysInsert": true,
+            "max": 2,
+            "interval": 5
+          }
+        },
+        "provider": "GoogleMobileAds",
+        "providerConfiguration": [
+          {
+            "adId": "/78059622/Article-App-300x250-1",
+            "width": 300,
+            "height": 250
+          },
+          {
+            "adId": "/78059622/Article-App-300x250-2",
+            "width": 300,
+            "height": 250
+          }
+        ]
+      }
+    },
+    {
+      "name": "ad",
+      "config": {
+        "insertStrategy": {"strategy": "end"},
+        "provider": "GoogleMobileAds",
+        "providerConfiguration": [{
+          "adId": "/78059622/App-Below-article-320x1475",
+          "width": 300,
+          "height": 250
+        }]
+      }
+    },
+    {
+      "name": "ad",
+      "config": {
+        "insertStrategy": {"strategy": "end"},
+        "provider": "Taboola",
+        "providerConfiguration": [{
+          "mode": "sc-android-belowarticle-khaleejtimes",
+          "pageType": "article",
+          "placementName": "Sponsored Below Article Android",
+          "width": 320,
+          "pageUrl": "https://blog.taboola.com",
+          "targetType": "mix"
+        }]
+      }
+    },
+    {
+      "name": "inPlaceTemplate",
+      "config": {
+        "template": "hr_replacement",
+        "select": {
+          "type": "element",
+          "matching": {"variation": "horizontal-line"}
+        }
+      }
+    }
+  ],
+  "articleUuidProviderUrl": "https://www.khaleejtimes.com/api/oc-post/",
+  "contentPresentation": {
+    "teasers": [
+      {
+        "layout": "kt_ad_teaser",
+        "match": {"content.customerContentSubType": ["SPONSOREDCONTENT"]},
+        "bindingOverrides": [{
+          "view": "teaserLeadin",
+          "keyPath": ""
+        }]
+      },
+      {
+        "layout": "standard_right_now_teaser",
+        "match": {"context.section": ["breaking"]},
+        "bindingOverrides": [{
+          "view": "teaserLeadin",
+          "keyPath": ""
+        }]
+      },
+      {
+        "layout": "kt_section_teaser",
+        "match": {"context.position.first": [true]}
+      },
+      {
+        "layout": "kt_related_teaser",
+        "match": {"context.related": [true]}
+      },
+      {
+        "layout": "kt_editors_pics_teaser",
+        "match": {"content.sectionUuids": ["7171332C-73B3-4445-94A1-C35D955EB233"]}
+      },
+      {"layout": "kt_default_teaser"}
+    ],
+    "articles": [{
+      "match": {"content.customerContentSubType": ["SPONSOREDCONTENT"]},
+      "afterPreprocessors": [
+        {
+          "name": "staticItem",
+          "config": {
+            "template": "ad_content_header",
+            "selectorType": "ad_content_header"
+          }
+        },
+        {
+          "name": "move",
+          "config": {
+            "select": {"type": "ad_content_header"},
+            "insert": {
+              "method": "index",
+              "position": 0
+            }
+          }
+        },
+        {
+          "name": "sticky",
+          "config": {"select": {"type": "ad_content_header"}}
+        },
+        {
+          "name": "delete",
+          "config": {"select": {"type": "ad"}}
+        }
+      ]
+    }]
+  }
+}

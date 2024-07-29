@@ -1,0 +1,6 @@
+{
+  "Social:Facebook": "fallback_facebook",
+  "Video:YouTube": "fallback_youtube",
+  "Social:Instagram": "fallback_instagram",
+  "Social:Twitter": "fallback_twitter"
+}

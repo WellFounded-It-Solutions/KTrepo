@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="16dp"
+    app:themeBackgroundColor="adBackground">
+
+    <se.infomaker.iap.theme.view.ThemeableTextView
+        android:id="@+id/adText"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="@+id/adFrame"
+        app:layout_constraintTop_toTopOf="parent"
+        app:themeKey="adTitle" />
+
+    <FrameLayout
+        android:id="@+id/adFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adText"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="#ff0000" />
+</se.infomaker.iap.theme.view.ThemeableConstraintLayout>

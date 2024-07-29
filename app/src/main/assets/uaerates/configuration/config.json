@@ -1,0 +1,97 @@
+{
+  "liveContent": {
+    "search": {
+      "baseQuery": "Status:usable AND (uuid:b79e4450-81f2-46ec-8752-6c2ff8e37890)",
+      "sortIndex": "ObjectCreated"
+    },
+    "typePropertyMap": {"GoldForexArticle": {
+      "teaserHeadline": {
+        "name": "TeaserHeadline",
+        "transforms": [
+          "htmlStrip",
+          "formatReplace"
+        ]
+      },
+      "contentId": {"name": "uuid"},
+      "contentType": {"name": "contenttype"},
+      "publicationDate": {"name": "ObjectCreated"},
+      "newsML": {"name": "BodyRaw"}
+    }},
+    "stream": {"baseQuery": {"query_string": {"query": "Status:usable AND (uuid:b79e4450-81f2-46ec-8752-6c2ff8e37890)"}}},
+    "defaultPropertyMap": "GoldForexArticle"
+  },
+  "ads": {"stickyArticle": {"providerConfiguration": {
+    "adId": "/78059622/Gold_forex_App-320x50-sticky",
+    "width": 320,
+    "height": 50
+  }}},
+  "preprocessors": [
+    {
+      "name": "image",
+      "config": {
+        "baseUrl": "https://imengine.public.stage.ktd.infomaker.io",
+        "preferredCrop": "16:9",
+        "text": "all",
+        "imageProvider": "imengine"
+      }
+    },
+    {
+      "name": "imagegallery",
+      "config": {
+        "baseUrl": "https://imengine.public.stage.ktd.infomaker.io",
+        "preferredCrop": "16:9",
+        "text": "all",
+        "imageProvider": "imengine",
+        "fallbackCrop": "16:9"
+      }
+    },
+    {
+      "name": "htmlEmbed",
+      "config": {
+        "baseUrl": "https://www.infomaker.se",
+        "aspectRatio": "2:1",
+        "embed": [{
+          "method": "internal",
+          "pattern": "google.com/maps"
+        }]
+      }
+    },
+    {
+      "name": "fallbackTemplate",
+      "config": {
+        "keyTemplate": "{{context}}:{{provider}}",
+        "templateMap": "fallbackTemplates.json"
+      }
+    },
+    {
+      "name": "ad",
+      "config": {
+        "insertStrategy": {
+          "strategy": "interval",
+          "config": {
+            "select": {
+              "type": "element",
+              "matching": {"type": "body"}
+            },
+            "alwaysInsert": true,
+            "max": 2,
+            "interval": 5
+          }
+        },
+        "provider": "GoogleMobileAds",
+        "providerConfiguration": [
+          {
+            "adId": "/78059622/Gold_forex_App_300x250_1",
+            "width": 300,
+            "height": 250
+          },
+          {
+            "adId": "/78059622/Gold_forex_App_300x250_2",
+            "width": 300,
+            "height": 250
+          }
+        ]
+      }
+    }
+  ]
+}

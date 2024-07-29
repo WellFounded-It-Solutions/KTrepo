@@ -1,0 +1,45 @@
+import com.github.jk1.license.LicenseReportPlugin
+import com.github.jk1.license.filter.LicenseBundleNormalizer
+import com.github.jk1.license.render.JsonReportRenderer
+
+buildscript {
+    repositories {
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath 'com.github.jk1:gradle-license-report:2.0'
+    }
+}
+
+apply plugin: LicenseReportPlugin
+
+licenseReport {
+    outputDir = "$projectDir/build/reports/licenses/"
+    renderers = [new JsonReportRenderer()]
+    filters = [new LicenseBundleNormalizer(bundlePath: "$project.rootDir/gradle/licenses/license-normalizer-config.json")]
+}
+
+/**
+ * Make sure we download licenses and bundle in before any merge assets task
+ */
+project.afterEvaluate {
+
+    android.sourceSets.main.assets.srcDirs += ['build/reports/licenses/assets']
+
+    project.tasks.forEach { task ->
+        if (task.name.startsWith("merge") && task.name.endsWith("Assets")) {
+            task.dependsOn project.tasks.getByName('generateLicenseReport')
+            task.dependsOn project.tasks.getByName('moveLicenses')
+        }
+
+        if (task.name.equalsIgnoreCase("moveLicenses")) {
+            task.mustRunAfter project.tasks.getByName('generateLicenseReport')
+        }
+    }
+}
+
+task moveLicenses(type: Copy) {
+    from(file("$projectDir/build/reports/licenses/index.json"))
+    into(file("$projectDir/build/reports/licenses/assets"))
+}
+

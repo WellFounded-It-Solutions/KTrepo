@@ -1,0 +1,29 @@
+{
+    "provisioningProvider": {
+        "provider": "Firebase",
+        "config": {
+            "enableLogin": true,
+            "appId": "ktd-android",
+            "enablePurchases": false
+        }
+    },
+    "skipIndentingProfileViews": true,
+    "adProviders": [{
+            "provider": "GoogleMobileAds",
+            "config": {}
+        },
+        {
+            "provider": "Taboola",
+            "config": { "publisherName": "khaleejtimes-androidmena-p27339908" }
+        }
+    ],
+    "statisticsProviders": [{
+        "provider": "FirebaseAnalytics",
+        "config": {
+            "screenTracking": {
+                "screen_name": "{{moduleID}}-{{viewName}}",
+                "screen_class": "{{moduleID}}-{{viewName}}"
+            }
+        }
+    }]
+}

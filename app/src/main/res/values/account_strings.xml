@@ -1,0 +1,4 @@
+<resources>
+    <string name="authenticated">Sign Out</string>
+    <string name="unauthenticated">Sign In</string>
+</resources>

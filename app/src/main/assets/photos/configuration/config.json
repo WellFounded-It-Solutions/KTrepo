@@ -1,0 +1,4 @@
+{"liveContent": {
+  "search": {"baseQuery": "Status:usable AND (ConceptSectionUuids:752D2DB3-9550-4CF9-89C5-146B10D9EB1F)"},
+  "stream": {"baseQuery": {"query_string": {"query": "Status:usable AND (ConceptSectionUuids:752D2DB3-9550-4CF9-89C5-146B10D9EB1F)"}}}
+}}

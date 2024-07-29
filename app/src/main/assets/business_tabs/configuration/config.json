@@ -1,0 +1,110 @@
+{"tabs": [
+  {
+    "module": "ContentList",
+    "id": "business",
+    "parent": "business_tab",
+    "title": "Business"
+  },
+  {
+    "module": "ContentList",
+    "id": "auto",
+    "parent": "business_tab",
+    "title": "Auto"
+  },
+  {
+    "module": "ContentList",
+    "id": "aviation",
+    "parent": "business_tab",
+    "title": "Aviation"
+  },
+  {
+    "module": "ContentList",
+    "id": "finance",
+    "parent": "business_tab",
+    "title": "Finance"
+  },
+  {
+    "module": "ContentList",
+    "id": "gadgets",
+    "parent": "business_tab",
+    "title": "Gadgets"
+  },
+  {
+    "module": "ContentList",
+    "id": "corporate",
+    "parent": "business_tab",
+    "title": "Corporate"
+  },
+  {
+    "module": "ContentList",
+    "id": "personal_finance",
+    "parent": "business_tab",
+    "title": "Personal Finance"
+  },
+  {
+    "module": "ContentList",
+    "id": "economy",
+    "parent": "business_tab",
+    "title": "Economy"
+  },
+  {
+    "module": "ContentList",
+    "id": "energy",
+    "parent": "business_tab",
+    "title": "Energy"
+  },
+  {
+    "module": "ContentList",
+    "id": "infrastructure",
+    "parent": "business_tab",
+    "title": "Infrastructure"
+  },
+  {
+    "module": "ContentList",
+    "id": "markets",
+    "parent": "business_tab",
+    "title": "Markets"
+  },
+  {
+    "module": "ContentList",
+    "id": "property",
+    "parent": "business_tab",
+    "title": "Property"
+  },
+  {
+    "module": "ContentList",
+    "id": "startups",
+    "parent": "business_tab",
+    "title": "Start-Ups"
+  },
+  {
+    "module": "ContentList",
+    "id": "telecom",
+    "parent": "business_tab",
+    "title": "Telecom"
+  },
+  {
+    "module": "ContentList",
+    "id": "cryptocurrency",
+    "parent": "business_tab",
+    "title": "Cryptocurrency"
+  },
+  {
+    "module": "ContentList",
+    "id": "currency_exchange",
+    "parent": "business_tab",
+    "title": "Currency Exchange"
+  },
+  {
+    "module": "ContentList",
+    "id": "tech",
+    "parent": "business_tab",
+    "title": "Tech"
+  },
+  {
+    "module": "ContentList",
+    "id": "ktnetwork",
+    "parent": "business_tab",
+    "title": "KT Network"
+  }
+]}

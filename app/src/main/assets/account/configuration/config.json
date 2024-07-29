@@ -1,0 +1,144 @@
+{"sections": [
+  {"views": [
+    {
+      "showIf": {
+        "value": true,
+        "key": "{{PROVISIONING.isLoggedIn}}",
+        "operator": "notEqual"
+      },
+      "type": "authentication"
+    },
+    {
+      "showIf": {
+        "value": true,
+        "key": "{{PROVISIONING.isLoggedIn}}",
+        "operator": "equal"
+      },
+      "type": "user"
+    },
+    {
+      "showIf": {
+        "value": true,
+        "key": "{{PROVISIONING.isLoggedIn}}",
+        "operator": "equal"
+      },
+      "type": "authentication"
+    }
+  ]},
+  {"views": [
+    {
+      "type": "action",
+      "parameters": {
+        "action": "openModule",
+        "text": "Saved Stories",
+        "parameters": {
+          "toolbar": "flat",
+          "moduleName": "Bookmarks",
+          "id": "bookmarks",
+          "title": "Saved"
+        }
+      }
+    },
+    {"type": "settings"}
+  ]},
+  {"views": [
+    {
+      "type": "link",
+      "parameters": {
+        "text": "About us",
+        "url": "https://www.khaleejtimes.com/about-us&template=artapp"
+      }
+    },
+    {
+      "type": "link",
+      "parameters": {
+        "text": "Contact us",
+        "url": "https://www.khaleejtimes.com/contact-us-app&template=artapp"
+      }
+    },
+    {
+      "type": "link",
+      "parameters": {
+        "text": "Privacy",
+        "url": "https://www.khaleejtimes.com/privacy-policy&template=artapp"
+      }
+    },
+    {
+      "type": "html",
+      "parameters": {"text": "<b>Editor-in-chief<\/b><br><a href=\"mailto:editor@khaleejtimes.com\">editor@khaleejtimes.com<\/a>"}
+    }
+  ]},
+  {
+    "title": "Follow us",
+    "views": [
+      {
+        "type": "link",
+        "parameters": {
+          "image": "facebook_logo_mono",
+          "text": "Facebook",
+          "url": "https://www.facebook.com/khaleejtimes"
+        }
+      },
+      {
+        "type": "link",
+        "parameters": {
+          "image": "whatsapp_logo_mono",
+          "text": "WhatsApp",
+          "url": "https://whatsapp.com/channel/0029Va5dROu3bbUxk7Jh2503"
+        }
+      },
+      {
+        "type": "link",
+        "parameters": {
+          "image": "telegram_logo_mono",
+          "text": "Telegram",
+          "url": "https://t.me/khaleejtimes"
+        }
+      },
+      {
+        "type": "link",
+        "parameters": {
+          "image": "twitter_logo_mono",
+          "text": "Twitter",
+          "url": "https://twitter.com/khaleejtimes"
+        }
+      },
+      {
+        "type": "link",
+        "parameters": {
+          "image": "instagram_logo_mono",
+          "text": "Instagram",
+          "url": "https://instagram.com/khaleejtimes"
+        }
+      },
+      {
+        "type": "link",
+        "parameters": {
+          "image": "linkedin_logo_mono",
+          "text": "LinkedIn",
+          "url": "https://www.linkedin.com/company/khaleejtimes/mycompany/"
+        }
+      },
+      {
+        "type": "link",
+        "parameters": {
+          "image": "gnews_logo_mono",
+          "text": "Google News",
+          "url": "https://news.google.com/publications/CAAqBwgKMLqnnwkwzfVu?hl=en-US&gl=US&ceid=US:en"
+        }
+      },
+      {
+        "type": "link",
+        "parameters": {
+          "image": "youtube_logo_mono",
+          "text": "YouTube",
+          "url": "https://www.youtube.com/khaleejtimes"
+        }
+      }
+    ]
+  },
+  {"views": [
+    {"type": "licenses"},
+    {"type": "version"}
+  ]}
+]}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se.infomaker.iap.theme.view.ThemeableCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="0dp">
+
+    <se.infomaker.iap.theme.view.ThemeableConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/horizontal_margin"
+        android:paddingVertical="8dp"
+        app:themeBackgroundColor="breakingNewsTeaserBackground">
+
+        <se.infomaker.iap.theme.view.ThemeableTextView
+            android:id="@+id/teaserTypeSection"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Breaking news"
+            android:textAllCaps="true"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/teaserHeadline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:themeKey="breakingNewsTeaserSubject"
+            />
+
+        <se.infomaker.livecontentui.livecontentrecyclerview.view.IMTextView
+            android:id="@+id/teaserHeadline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/teaserTypeSection"
+            app:themeKey="breakingNewsTeaserHeadline"
+            tools:text="Zlatan Ibrahimovic LA Galaxy: Zlatan joins LA Galaxy after Manchester United departure" />
+    </se.infomaker.iap.theme.view.ThemeableConstraintLayout>
+</se.infomaker.iap.theme.view.ThemeableCardView>
